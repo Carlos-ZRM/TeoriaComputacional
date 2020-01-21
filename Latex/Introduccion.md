@@ -40,17 +40,17 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 - Código agregado desde texto
  
 ```
-\begin{lstlisting}[language=Python] 
+\begin{lstlisting}[language=Python, caption= Ejemplo de Hola mundo en Python] 
 	def HolaMundo():
 		print("Hola Mundo")
 \end{lstlisting}
  ```
  - Código agregado desde archivo
 ```
-\lstinputlisting[language=Python]{holaMundo.py}
+\lstinputlisting[language=Python, caption= Ejemplo de Hola mundo en Python ]{holaMundo.py}
 ```
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU0MTQxODIsNTY0Nzk4MTA1XX0=
+eyJoaXN0b3J5IjpbLTEzOTU1NzAwLDU2NDc5ODEwNV19
 -->
