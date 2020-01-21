@@ -41,13 +41,16 @@ Se puede utilizar el paquete ``\usepackage{listings}`` .  Se puede agregar el cÃ
  
 ```
 \begin{lstlisting}[language=Python] 
-	print("Hola Mundo")
+	def HolaMundo():
+		print("Hola Mundo")
 \end{lstlisting}
  ```
  - CÃ³digo agregado desde archivo
-``\lstinputlisting[language=Py]{BitXorMatrix.m}``
+```
+\lstinputlisting[language=Python]{holaMundo.py}
+```
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyODM5MTMxOSw1NjQ3OTgxMDVdfQ==
+eyJoaXN0b3J5IjpbLTExODc5Mjc4MDksNTY0Nzk4MTA1XX0=
 -->
