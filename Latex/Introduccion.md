@@ -7,7 +7,7 @@
 LatTex funciona mediante instrucciones. Las instrucciones pertenecen a algún paquete de Latex y algunas instrucciones pueden recibir parámetros. 
 Estas instrucciones inician con el símbolo ```\instrucción``` o pueden iniciar con las sentencias: 
 ```
-\begin{instrucción}
+\begin{instrucción}[parametros]
 	...
 \end{instrucción}
 ```
@@ -37,5 +37,5 @@ Los documentos se inician y cierran entre las instrucciones
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MjA4Mzc5OSw1NjQ3OTgxMDVdfQ==
+eyJoaXN0b3J5IjpbMjgwNjIwMTkzLDU2NDc5ODEwNV19
 -->
