@@ -34,8 +34,8 @@ Los documentos se inician y cierran entre las instrucciones
 
 ### Figuras y tablas
 #### Figuras
-Se pueden agregar las imágenes dentro del 
-Existen varios paquetes para agregar y modificar imágenes entre ellos están graphics .
+Se pueden agregar las imágenes dentro de la sentencia figure .
+
 ``` 
 % Agregar a la sección de preambulo
 \usepackage{graphicx}
@@ -64,5 +64,5 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NzgyNDAxMiw1NjQ3OTgxMDVdfQ==
+eyJoaXN0b3J5IjpbLTEzNjE5NzUzNDMsNTY0Nzk4MTA1XX0=
 -->
