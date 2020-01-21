@@ -13,7 +13,13 @@
 - \author{Carlos - ZRM }
 - \date{Enero 2020}
 ### Cuerpo
-Los documentos se inician y cierran entre la 
+Los documentos se inician y cierran entre las instrucciones 
+```
+\begin{document}
+	...
+\end{document}
+```
+
 
 
 ## Figuras y tablas
@@ -21,5 +27,5 @@ Los documentos se inician y cierran entre la
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MzE0MTY0Ml19
+eyJoaXN0b3J5IjpbLTEzMDI3ODI3MDZdfQ==
 -->
