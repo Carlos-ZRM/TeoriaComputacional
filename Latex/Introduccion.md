@@ -33,7 +33,10 @@ Los documentos se inician y cierran entre las instrucciones
 
 
 ### Figuras y tablas
-
+#### Figuras
+Existen varios paquetes para agregar y modificar imágenes entre elli. 
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
 ### Código
 Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones para agregar el código: dentro del documento .tex o  desde un archivo. 
 
@@ -52,5 +55,5 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTU1NzAwLDU2NDc5ODEwNV19
+eyJoaXN0b3J5IjpbLTEyMjI2MTg3NTMsNTY0Nzk4MTA1XX0=
 -->
