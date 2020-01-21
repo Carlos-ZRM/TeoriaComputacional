@@ -16,6 +16,8 @@ Estas instrucciones inician con el símbolo ```\instrucción``` o pueden iniciar
 
 #### \documentclass
 #### \usepackage
+- \usepackage{listings}
+	Paquete que permite la inserción de código dentro del texto. Este paquete contien 
 #### información del documento
 - \title{PlantillaTeoria}
 - \author{Carlos - ZRM }
@@ -35,5 +37,5 @@ Los documentos se inician y cierran entre las instrucciones
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY0Nzk4MTA1XX0=
+eyJoaXN0b3J5IjpbLTE3MTUwOTU5NDQsNTY0Nzk4MTA1XX0=
 -->
