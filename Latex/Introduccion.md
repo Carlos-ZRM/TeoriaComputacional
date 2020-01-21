@@ -34,6 +34,7 @@ Los documentos se inician y cierran entre las instrucciones
 
 ### Figuras y tablas
 #### Figuras
+Se pueden agregar 
 Existen varios paquetes para agregar y modificar imágenes entre ellos están graphics .
 ``` 
 % Agregar a la sección de preambulo
@@ -42,7 +43,7 @@ Existen varios paquetes para agregar y modificar imágenes entre ellos están gr
 % Agrega un directorio de imagenes
 \graphicspath{ {./images/} }
 
-% Dentro del documento
+% Dentro de la sentencia figure o del documento
 \includegraphics{imagen}
 ```
 ### Código
@@ -63,5 +64,5 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQxOTEyNjIzLDU2NDc5ODEwNV19
+eyJoaXN0b3J5IjpbLTExNzA5NjM5MzYsNTY0Nzk4MTA1XX0=
 -->
