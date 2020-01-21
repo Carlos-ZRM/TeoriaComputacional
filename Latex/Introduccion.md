@@ -4,7 +4,8 @@
 ## Compiladores y aplicaciones
 
 ## Estructura de un documento
-### Preambulo
+LatTex funciona mediante instrucciones. Estas instrucciones inician con el símbolo `` \``
+### Preambul`
 
 #### \documentclass
 #### \usepackage
@@ -27,5 +28,5 @@ Los documentos se inician y cierran entre las instrucciones
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDI3ODI3MDZdfQ==
+eyJoaXN0b3J5IjpbLTE0NDI3OTk0NTZdfQ==
 -->
