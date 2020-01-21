@@ -15,6 +15,7 @@ Estas instrucciones inician con el símbolo ```\instrucción``` o pueden iniciar
 ### Preambulo
 
 #### \documentclass
+
 #### \usepackage
 - \usepackage{listings}
 	Paquete que permite la inserción de código dentro del texto. Este paquete tiene formato para varios lenguajes de programación y el estilo puede personalizarse 
@@ -64,5 +65,5 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjE5NzUzNDMsNTY0Nzk4MTA1XX0=
+eyJoaXN0b3J5IjpbNDQwMTYwNTExLDU2NDc5ODEwNV19
 -->
