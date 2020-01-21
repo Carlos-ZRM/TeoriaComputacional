@@ -35,8 +35,8 @@ Los documentos se inician y cierran entre las instrucciones
 ### Figuras y tablas
 
 ### Código
-El paquete pu
+Se puede utilizar el paquete ``\usepackage{listings}`` 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE4OTkwMyw1NjQ3OTgxMDVdfQ==
+eyJoaXN0b3J5IjpbMTU3MjQyNTkxNSw1NjQ3OTgxMDVdfQ==
 -->
