@@ -5,8 +5,8 @@
 
 ## Estructura de un documento
 
-##
+·
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NzgzMjg1OF19
+eyJoaXN0b3J5IjpbMTY1MzgyNDU3MV19
 -->
