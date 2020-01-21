@@ -35,7 +35,7 @@ Los documentos se inician y cierran entre las instrucciones
 ### Figuras y tablas
 
 ### Código
-Se puede utilizar el paquete ``\usepackage{listings}`` .  Se puede agregar el código dentro del documento .tex o se puede agregar desde un archivo. 
+Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones para agregar el código: dentro del documento .tex o  desde un archivo. 
 
 - Código agregado desde texto
  
@@ -52,5 +52,5 @@ Se puede utilizar el paquete ``\usepackage{listings}`` .  Se puede agregar el c�
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODc5Mjc4MDksNTY0Nzk4MTA1XX0=
+eyJoaXN0b3J5IjpbMjU0MTQxODIsNTY0Nzk4MTA1XX0=
 -->
