@@ -8,7 +8,10 @@
 
 #### \documentclass
 #### \usepackage
-
+#### información del documento
+- \title{PlantillaTeoria}
+- \author{carloszrm }
+- \date{January 2020}
 ### Cuerpo
 
 
@@ -17,5 +20,5 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMzNDU0MjY0XX0=
+eyJoaXN0b3J5IjpbMTgzMDcyMjYxMl19
 -->
