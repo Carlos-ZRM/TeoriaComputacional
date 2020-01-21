@@ -4,8 +4,14 @@
 ## Compiladores y aplicaciones
 
 ## Estructura de un documento
-LatTex funciona mediante instrucciones. Estas instrucciones inician con el símbolo `` \``
-### Preambul`
+LatTex funciona mediante instrucciones. Estas instrucciones inician con el símbolo ```\``` o pueden iniciar con las sentencias: 
+```
+\begin{...}
+	...
+\end{...}
+```
+
+### Preambulo
 
 #### \documentclass
 #### \usepackage
@@ -28,5 +34,5 @@ Los documentos se inician y cierran entre las instrucciones
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDI3OTk0NTZdfQ==
+eyJoaXN0b3J5IjpbLTEzNDYwNzg2NDldfQ==
 -->
