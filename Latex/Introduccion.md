@@ -38,10 +38,12 @@ Existen varios paquetes para agregar y modificar imágenes entre ellos están gr
 ``` 
 % Agregar a la sección de preambulo
 \usepackage{graphicx}
+
 % Agrega un directorio de imagenes
 \graphicspath{ {./images/} }
 
-
+% Dentro del documento
+\includegraphics{imagen}
 ```
 ### Código
 Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones para agregar el código: dentro del documento .tex o  desde un archivo. 
@@ -61,5 +63,5 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTc4Mzg2MzksNTY0Nzk4MTA1XX0=
+eyJoaXN0b3J5IjpbMjQxOTEyNjIzLDU2NDc5ODEwNV19
 -->
