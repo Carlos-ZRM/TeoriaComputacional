@@ -35,8 +35,9 @@ Los documentos se inician y cierran entre las instrucciones
 ### Figuras y tablas
 
 ### Código
-Se puede utilizar el paquete ``\usepackage{listings}`` 
+Se puede utilizar el paquete ``\usepackage{listings}`` .  Se puede agregar el código dentro del documento .tex o se puede agregar desde un archivo. 
+D
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjQyNTkxNSw1NjQ3OTgxMDVdfQ==
+eyJoaXN0b3J5IjpbMTQ5MzY2MzA5NCw1NjQ3OTgxMDVdfQ==
 -->
