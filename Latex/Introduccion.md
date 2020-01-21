@@ -37,8 +37,17 @@ Los documentos se inician y cierran entre las instrucciones
 ### Código
 Se puede utilizar el paquete ``\usepackage{listings}`` .  Se puede agregar el código dentro del documento .tex o se puede agregar desde un archivo. 
 
-- Código agregado desde texto ```\begin{lstlisting}[language=Python] ```
+- Código agregado desde texto
+ 
+```
+\begin{lstlisting}[language=Python] 
+	print("Hola Mundo")
+\end{lstlisting}
+ ```
+ - Código agregado desde archivo
+``\lstinputlisting[language=Py]{BitXorMatrix.m}``
+ 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5OTg5NDE0LDU2NDc5ODEwNV19
+eyJoaXN0b3J5IjpbLTgyODM5MTMxOSw1NjQ3OTgxMDVdfQ==
 -->
