@@ -19,6 +19,7 @@ Estas instrucciones inician con el símbolo ```\instrucción``` o pueden iniciar
 #### \usepackage
 - \usepackage{listings}
 	Paquete que permite la inserción de código dentro del texto. Este paquete tiene formato para varios lenguajes de programación y el estilo puede personalizarse 
+	
 #### información del documento
 - \title{PlantillaTeoria}
 - \author{Carlos - ZRM }
@@ -30,7 +31,12 @@ Los documentos se inician y cierran entre las instrucciones
 	...
 \end{document}
 ```
-La division de los documentos se realiza a partir de la clase a la que pertenecen, Por ejemplo la division mas grande de las clases book y report es
+#### inport
+Se pueden importar diferentes documentos como .tex .pdf . estos se agregaran dentro del documento
+\input{filename}
+
+
+La division de los documentos se realiza a partir de la clase a la que pertenecen, Por ejemplo la division mas grande de las clases book y reportes
  
 #### Texto
 El texto puede tener varias decoraciones. entre ellas
