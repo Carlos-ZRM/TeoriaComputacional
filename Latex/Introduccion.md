@@ -32,7 +32,7 @@ Los documentos se inician y cierran entre las instrucciones
 ```
 La division de los documentos se realiza a partir de la clase a la que pertenecen, Por ejemplo la division mas grande de las clases book y report es
   
-
+\chapter
 
 ### Figuras y tablas
 #### Figuras
@@ -66,6 +66,6 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMTEzMzgyOSw5MTMyNDc4LDQ0MDE2MD
-UxMSw1NjQ3OTgxMDVdfQ==
+eyJoaXN0b3J5IjpbLTEyNTE2Njk2MDAsOTEzMjQ3OCw0NDAxNj
+A1MTEsNTY0Nzk4MTA1XX0=
 -->
