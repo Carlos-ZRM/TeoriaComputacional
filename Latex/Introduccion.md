@@ -31,23 +31,30 @@ Los documentos se inician y cierran entre las instrucciones
 \end{document}
 ```
 La division de los documentos se realiza a partir de la clase a la que pertenecen, Por ejemplo la division mas grande de las clases book y report es
-  
-\chapter
+ 
+#### Texto
+El texto puede tener varias decoraciones. entre ellas
+
+\textit{Palabras en italicas}
+\textbf{Palabras resaltadas}
+\underline{underlined words}
+
+- Se puede encapsular los decoradores por ejemplo
+
+\underline{\textit{\textbf{Negrita, italica y subrayada}}}
 
 
+En cuanto al tamano de la letra este puede definrse al inicio del documento, mediante una sentencia o en un bloque. 
+Desde la instruccion de la clase del documento 
 
+\documentclass[12 pt]{article} 
 
+Las sentencias que provee latex son las siguientes
 
-
-
-
-
-
-
-
-
-
-
+- Al modificar el tamanio de letra en la clase del documento se modifica \normalsize por lo que todas las demas sentencias tambien lo hacen
+- El tamanio de la letra por default varia dependiendo del tipo de documento
+- Al utilizar un comando modifica el tamanio del resto del documento hasta que termine o hasta que otra sentencia lo modifique
+- Para solo modificar lineas del documento pueden encerrarse entre corchetes {\LargeTexto Largo}
 
 
 ### Figuras y tablas
