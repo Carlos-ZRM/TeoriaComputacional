@@ -30,7 +30,7 @@ Los documentos se inician y cierran entre las instrucciones
 	...
 \end{document}
 ```
-
+Algu
 
 
 ### Figuras y tablas
@@ -65,5 +65,6 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwMTYwNTExLDU2NDc5ODEwNV19
+eyJoaXN0b3J5IjpbMjAwMDE0OTkyNiw0NDAxNjA1MTEsNTY0Nz
+k4MTA1XX0=
 -->
