@@ -30,7 +30,8 @@ Los documentos se inician y cierran entre las instrucciones
 	...
 \end{document}
 ```
-La division de los documentos se realiza a partir de la clase a la que pertenecen, Por ejemplo la division mas 
+La division de los documentos se realiza a partir de la clase a la que pertenecen, Por ejemplo la division mas grande de las clases book y report es
+  
 
 
 ### Figuras y tablas
@@ -65,6 +66,6 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE1NzU0OTEwLDkxMzI0NzgsNDQwMTYwNT
-ExLDU2NDc5ODEwNV19
+eyJoaXN0b3J5IjpbMjEwMTEzMzgyOSw5MTMyNDc4LDQ0MDE2MD
+UxMSw1NjQ3OTgxMDVdfQ==
 -->
