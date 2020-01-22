@@ -30,7 +30,7 @@ Los documentos se inician y cierran entre las instrucciones
 	...
 \end{document}
 ```
-Los te
+La division de los documentos se realiza a partir de la clase a la que pertenecen, Por ejemplo la division mas 
 
 
 ### Figuras y tablas
@@ -65,6 +65,6 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzMjQ3OCw0NDAxNjA1MTEsNTY0Nzk4MT
-A1XX0=
+eyJoaXN0b3J5IjpbNDE1NzU0OTEwLDkxMzI0NzgsNDQwMTYwNT
+ExLDU2NDc5ODEwNV19
 -->
