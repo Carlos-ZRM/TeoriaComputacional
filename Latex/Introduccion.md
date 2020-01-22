@@ -34,6 +34,22 @@ La division de los documentos se realiza a partir de la clase a la que pertenece
   
 \chapter
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Figuras y tablas
 #### Figuras
 Se pueden agregar las imágenes dentro de la sentencia figure .
@@ -66,6 +82,6 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTE2Njk2MDAsOTEzMjQ3OCw0NDAxNj
-A1MTEsNTY0Nzk4MTA1XX0=
+eyJoaXN0b3J5IjpbLTE5NTg4NDMyNjQsLTEyNTE2Njk2MDAsOT
+EzMjQ3OCw0NDAxNjA1MTEsNTY0Nzk4MTA1XX0=
 -->
