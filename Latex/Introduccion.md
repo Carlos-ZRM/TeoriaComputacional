@@ -80,10 +80,10 @@ Los documentos se inician y cierran entre las instrucciones
 ```
 #### inport
 Se pueden importar diferentes documentos como .tex .pdf . estos se agregaran dentro del documento
-\input{filename}
+
+``\input{filename.tex}``
 
 
-La division de los documentos se realiza a partir de la clase a la que pertenecen, Por ejemplo la division mas grande de las clases book y reportes
  
 #### Texto
 El texto puede tener varias decoraciones. entre ellas
@@ -154,10 +154,10 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTIwMDI0MCwtMTEyNDEzMjg5MCwxNz
-g2MTc3MDgzLDIwNzk3NjA5MTksMTY4NDY2MzA0NSwtMzk3MzYw
-MzQzLDEwMDM0NjI5NjMsMTI3NzA0NjU2NSwxMzk4ODU4NDA5LC
-0xNzA5NTc4MzQsLTgyNjYxNjMxMSwtMTk1ODg0MzI2NCwtMTI1
-MTY2OTYwMCw5MTMyNDc4LDQ0MDE2MDUxMSw1NjQ3OTgxMDVdfQ
-==
+eyJoaXN0b3J5IjpbLTIwMTM3MzU1MTMsLTExMjQxMzI4OTAsMT
+c4NjE3NzA4MywyMDc5NzYwOTE5LDE2ODQ2NjMwNDUsLTM5NzM2
+MDM0MywxMDAzNDYyOTYzLDEyNzcwNDY1NjUsMTM5ODg1ODQwOS
+wtMTcwOTU3ODM0LC04MjY2MTYzMTEsLTE5NTg4NDMyNjQsLTEy
+NTE2Njk2MDAsOTEzMjQ3OCw0NDAxNjA1MTEsNTY0Nzk4MTA1XX
+0=
 -->
