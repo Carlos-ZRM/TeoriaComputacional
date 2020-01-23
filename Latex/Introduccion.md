@@ -117,6 +117,8 @@ En cuanto al tamano de la letra este puede definrse al inicio del documento, med
 
 
 ### Figuras y tablas
+#### Listas
+Las listas 
 #### Figuras
 Se pueden agregar las imágenes dentro de la sentencia figure .
 
@@ -163,7 +165,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NTMyNzA2MCwtMTIzMDA4Nzk1NSwxMz
+eyJoaXN0b3J5IjpbMTUyODM3MDIzMCwtMTIzMDA4Nzk1NSwxMz
 Q2MTcyMDcyLDE4NDI5MzI2OTIsLTIwMTM3MzU1MTMsLTExMjQx
 MzI4OTAsMTc4NjE3NzA4MywyMDc5NzYwOTE5LDE2ODQ2NjMwND
 UsLTM5NzM2MDM0MywxMDAzNDYyOTYzLDEyNzcwNDY1NjUsMTM5
