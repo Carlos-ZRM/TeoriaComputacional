@@ -91,12 +91,10 @@ El texto puede tener varias decoraciones. entre ellas
 - Palabras en itálicas ``\textit{Palabras en italicas}``
 - Palabras resaltadas ``\textbf{Palabras resaltadas}``
 - Palabras subrayadas ``\underline{underlined words}``
-
 - Se puede encapsular los decoradores por ejemplo
+ ``\underline{\textit{\textbf{Negrita, italica y subrayada}}}``
 
-\underline{\textit{\textbf{Negrita, italica y subrayada}}}
-
-
+- Tamaño
 En cuanto al tamano de la letra este puede definrse al inicio del documento, mediante una sentencia o en un bloque. 
 Desde la instruccion de la clase del documento 
 
@@ -157,7 +155,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTE5MTA5OCwxODQyOTMyNjkyLC0yMD
+eyJoaXN0b3J5IjpbMTM0NjE3MjA3MiwxODQyOTMyNjkyLC0yMD
 EzNzM1NTEzLC0xMTI0MTMyODkwLDE3ODYxNzcwODMsMjA3OTc2
 MDkxOSwxNjg0NjYzMDQ1LC0zOTczNjAzNDMsMTAwMzQ2Mjk2My
 wxMjc3MDQ2NTY1LDEzOTg4NTg0MDksLTE3MDk1NzgzNCwtODI2
