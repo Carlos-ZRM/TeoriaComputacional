@@ -351,7 +351,18 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
 
 - \package{geometry}
  ![Layout-dimensions.png](https://sharelatex-wiki-cdn-671420.c.cdn77.org/learn-scripts/images/f/fc/Layout-dimensions.png)
-
+```
+\usepackage{geometry}
+\geometry{
+ letterpaper,
+ landscape,
+ twoside,
+ %total={170mm,257mm},
+ left=10mm,
+ right =10mm,
+ top=15mm
+ }
+```
 - \usepackage{hyperref}
 - \usepackage{import}
 	
@@ -370,11 +381,11 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTAzNDY1MTQsMTkxNzg5MjYzNCwtNj
-gyODU0MjQsLTE1MzYzNzQ1MDQsLTEzNzE3MjUwMDEsLTE4NzQ3
-NDc1MDUsLTE5OTQ0NTc4OTIsLTIwMDU2NTA1MzMsMjg3NzIxNz
-I0LC0yMDI5NDg2MTgwLDMyNDkxNTcwMCwtMTA1MjUyNzE4Miwt
-NzY4NTgwOTYxLDEzMjI4MDIzMTYsMTUyODM3MDIzMCwtMTIzMD
-A4Nzk1NSwxMzQ2MTcyMDcyLDE4NDI5MzI2OTIsLTIwMTM3MzU1
-MTMsLTExMjQxMzI4OTBdfQ==
+eyJoaXN0b3J5IjpbMTE1MDYyMTExNCwxOTE3ODkyNjM0LC02OD
+I4NTQyNCwtMTUzNjM3NDUwNCwtMTM3MTcyNTAwMSwtMTg3NDc0
+NzUwNSwtMTk5NDQ1Nzg5MiwtMjAwNTY1MDUzMywyODc3MjE3Mj
+QsLTIwMjk0ODYxODAsMzI0OTE1NzAwLC0xMDUyNTI3MTgyLC03
+Njg1ODA5NjEsMTMyMjgwMjMxNiwxNTI4MzcwMjMwLC0xMjMwMD
+g3OTU1LDEzNDYxNzIwNzIsMTg0MjkzMjY5MiwtMjAxMzczNTUx
+MywtMTEyNDEzMjg5MF19
 -->
