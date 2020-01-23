@@ -82,20 +82,21 @@ Los documentos se inician y cierran entre las instrucciones
 El documento se puede dividir por secciones de tal manera que se muestren de forma jerárquica en el indice. 
  
  - Parte: \part ( body y report) -1
- - Parte: \part ( body y report) -1
- -  Capítulo: \chapter 
- - Apéndice: \appendix, \chapter
- -  Sección: \section 
- - Subsección: \subsection 
- - Subsubsección: \subsubsection 
- - Párrafo: \paragraph 
- - Subpárrafo: \subparagraph
+ - Parte: \part ( Article ) 0
+ -  Capítulo: \chapter 0
+ - Apéndice: \appendix, \chapter 0
+ -  Sección: \section 1
+ - Subsección: \subsection 2 
+ - Subsubsección: \subsubsection 3 
+ - Párrafo: \paragraph 4 
+ - Subpárrafo: \subparagraph 5
 
 - Para construir el indice se utiliza ``\tableofcontents``
+- Para indicar las secciones que aparecerán en el indice se utiliza el comando 
+	``\setcounter{tocdepth}{nivel}``
 - Podemos utilizar un nombre alternativo que aparecerá en la cabecera y en el indice. Es útil para nombres muy largos
 	``\section[nombre corto]{nombre muy largo}``
 - También se pueden crear secciones no numeradas y que no aparecerán en el indice ``\section*{No numerada}``
-- 
 #### inport
 Se pueden importar diferentes documentos como .tex .pdf . estos se agregaran dentro del documento
 
@@ -286,11 +287,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NjY1NjE1NiwtMTUzNjM3NDUwNCwtMT
-M3MTcyNTAwMSwtMTg3NDc0NzUwNSwtMTk5NDQ1Nzg5MiwtMjAw
-NTY1MDUzMywyODc3MjE3MjQsLTIwMjk0ODYxODAsMzI0OTE1Nz
-AwLC0xMDUyNTI3MTgyLC03Njg1ODA5NjEsMTMyMjgwMjMxNiwx
-NTI4MzcwMjMwLC0xMjMwMDg3OTU1LDEzNDYxNzIwNzIsMTg0Mj
-kzMjY5MiwtMjAxMzczNTUxMywtMTEyNDEzMjg5MCwxNzg2MTc3
-MDgzLDIwNzk3NjA5MTldfQ==
+eyJoaXN0b3J5IjpbLTY4Mjg1NDI0LC0xNTM2Mzc0NTA0LC0xMz
+cxNzI1MDAxLC0xODc0NzQ3NTA1LC0xOTk0NDU3ODkyLC0yMDA1
+NjUwNTMzLDI4NzcyMTcyNCwtMjAyOTQ4NjE4MCwzMjQ5MTU3MD
+AsLTEwNTI1MjcxODIsLTc2ODU4MDk2MSwxMzIyODAyMzE2LDE1
+MjgzNzAyMzAsLTEyMzAwODc5NTUsMTM0NjE3MjA3MiwxODQyOT
+MyNjkyLC0yMDEzNzM1NTEzLC0xMTI0MTMyODkwLDE3ODYxNzcw
+ODMsMjA3OTc2MDkxOV19
 -->
