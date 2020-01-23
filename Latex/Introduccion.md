@@ -5,22 +5,22 @@ Si bien TeX es un lenguaje de marcado para describir cómo debe verse su documen
 
 Un **lenguaje de marcado**  es una forma de codificar un documento que, junto con el texto, incorpora Etiqueta o marcas que contienen información adicional acerca de la estructura del texto o su presentación.
 
-## Compiladores y aplicaciones
+## Motores y aplicaciones
 
-Cada compilador contiene algunas librerías e implementaciones diferentes. por lo que el resultado de un archivo .tex puede variar
+Cada motor contiene algunas librerías e implementaciones diferentes. por lo que el resultado de un archivo .tex puede variar
 
 - xetex,  xelatex 
 - lualatex
 - pdflatex
 - tex,  latex
 
-Latex esta disponible en varios sistemas operativos. Por lo que pueden instalar los compiladores y un IDE de edición. 
+Latex esta disponible en varios sistemas operativos. Por lo que pueden instalar los diversos motores y un IDE de edición. 
 
 - MacTeX
 - MiKTeX
 - TeX Live
 
-Tambiien existen servicios web que permiten la edición colaborativa, versionamiento, 
+Tambiien existen servicios web que permiten la edición colaborativa, versionamiento, previsualizar y compilar con 
 
 ## Estructura de un documento
 LatTex funciona mediante instrucciones. Las instrucciones pertenecen a algún paquete de Latex y algunas instrucciones pueden recibir parámetros. 
@@ -114,7 +114,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NjAwMDI4MywtMTk1ODg0MzI2NCwtMT
+eyJoaXN0b3J5IjpbMTg5MTIzNDcyMiwtMTk1ODg0MzI2NCwtMT
 I1MTY2OTYwMCw5MTMyNDc4LDQ0MDE2MDUxMSw1NjQ3OTgxMDVd
 fQ==
 -->
