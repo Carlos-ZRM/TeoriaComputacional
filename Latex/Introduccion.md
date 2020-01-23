@@ -52,7 +52,7 @@ En el preambulo se suelen indicar los paquetes que se usaran dentro del document
 
 ```
 
-
+También es posible 
 \usepackage{packages}
 
 
@@ -135,7 +135,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODg1ODQwOSwtMTcwOTU3ODM0LC04Mj
-Y2MTYzMTEsLTE5NTg4NDMyNjQsLTEyNTE2Njk2MDAsOTEzMjQ3
-OCw0NDAxNjA1MTEsNTY0Nzk4MTA1XX0=
+eyJoaXN0b3J5IjpbMTI3NzA0NjU2NSwxMzk4ODU4NDA5LC0xNz
+A5NTc4MzQsLTgyNjYxNjMxMSwtMTk1ODg0MzI2NCwtMTI1MTY2
+OTYwMCw5MTMyNDc4LDQ0MDE2MDUxMSw1NjQ3OTgxMDVdfQ==
 -->
