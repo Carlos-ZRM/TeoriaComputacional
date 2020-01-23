@@ -204,8 +204,8 @@ También podemos agregar las imágenes dentro de la sentencia **figure** este ob
 ```
 #### Tablas
 
-
-[Tablas en línea ]: https://www.tablesgenerator.com
+Tablas en linea
+[ ]: https://www.tablesgenerator.com
 
 
 Al igual que las figuras las tablas pueden tener titulo, alineación, referencias. Se utilizara el comando tabular para  crear las filas y columnas.  
@@ -447,11 +447,11 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NjY0MjE0OSw0MTU2NzY4OTgsLTIxMj
-c0NDIxMjgsLTY3NjA3OTY5LDE5MTc4OTI2MzQsLTY4Mjg1NDI0
-LC0xNTM2Mzc0NTA0LC0xMzcxNzI1MDAxLC0xODc0NzQ3NTA1LC
-0xOTk0NDU3ODkyLC0yMDA1NjUwNTMzLDI4NzcyMTcyNCwtMjAy
-OTQ4NjE4MCwzMjQ5MTU3MDAsLTEwNTI1MjcxODIsLTc2ODU4MD
-k2MSwxMzIyODAyMzE2LDE1MjgzNzAyMzAsLTEyMzAwODc5NTUs
-MTM0NjE3MjA3Ml19
+eyJoaXN0b3J5IjpbLTEwNTU4MzgxNjcsNDE1Njc2ODk4LC0yMT
+I3NDQyMTI4LC02NzYwNzk2OSwxOTE3ODkyNjM0LC02ODI4NTQy
+NCwtMTUzNjM3NDUwNCwtMTM3MTcyNTAwMSwtMTg3NDc0NzUwNS
+wtMTk5NDQ1Nzg5MiwtMjAwNTY1MDUzMywyODc3MjE3MjQsLTIw
+Mjk0ODYxODAsMzI0OTE1NzAwLC0xMDUyNTI3MTgyLC03Njg1OD
+A5NjEsMTMyMjgwMjMxNiwxNTI4MzcwMjMwLC0xMjMwMDg3OTU1
+LDEzNDYxNzIwNzJdfQ==
 -->
