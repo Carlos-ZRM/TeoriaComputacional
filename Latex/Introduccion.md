@@ -213,9 +213,11 @@ Como hemos visto **table** y **figure** , así que podemos utilizar tabular para
 ##### Citar dentro del texto
 Latex nos permite hacer referencias dentro del texto. No solo podemos reverenciar tablas o figuras, sino cualquier lugar del texto donde podamos insertar el comando 
 ``\label{etiqueta}``
-Y podemos referenciar el elemento con ``ref 
+Y podemos referenciar el elemento con ``\ref{etiqueta}`` o ``\pageref{etiqueta}`` 
+
 ##### Listas de contenido 
-  También latex nos permite crear listas de figuras y contenido. 
+  
+  Latex nos permite crear listas de figuras y contenido. 
   ```
   \listoffigures
   \clearpage
@@ -256,7 +258,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMTI1OTYzNywtMTM3MTcyNTAwMSwtMT
+eyJoaXN0b3J5IjpbMTIzNzc4ODkxOCwtMTM3MTcyNTAwMSwtMT
 g3NDc0NzUwNSwtMTk5NDQ1Nzg5MiwtMjAwNTY1MDUzMywyODc3
 MjE3MjQsLTIwMjk0ODYxODAsMzI0OTE1NzAwLC0xMDUyNTI3MT
 gyLC03Njg1ODA5NjEsMTMyMjgwMjMxNiwxNTI4MzcwMjMwLC0x
