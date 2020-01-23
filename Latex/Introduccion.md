@@ -97,15 +97,14 @@ El texto puede tener varias decoraciones. entre ellas
 - Tamaño
 En cuanto al tamano de la letra este puede definrse al inicio del documento, mediante una sentencia o en un bloque. 
 
-  - Desde la instruccion de la clase del documento 
-
-	``\documentclass[12 pt]{article}`` 
-	
--  Tama	
-- Al modificar el tamanio de letra en la clase del documento se modifica \normalsize por lo que todas las demas sentencias tambien lo hacen
-- El tamanio de la letra por default varia dependiendo del tipo de documento
-- Al utilizar un comando modifica el tamanio del resto del documento hasta que termine o hasta que otra sentencia lo modifique
-- Para solo modificar lineas del documento pueden encerrarse entre corchetes {\LargeTexto Largo}
+	 - Desde la instruccion de la clase del documento 
+	``\documentclass[12 pt]{article}`` 		
+	- Desde la instruccion
+		- 
+	- Al modificar el tamanio de letra en la clase del documento se modifica \normalsize por lo que todas las demas sentencias tambien lo hacen
+	- El tamanio de la letra por default varia dependiendo del tipo de documento
+	- Al utilizar un comando modifica el tamanio del resto del documento hasta que termine o hasta que otra sentencia lo modifique
+	- Para solo modificar lineas del documento pueden encerrarse entre corchetes {\LargeTexto Largo}
 
 
 ### Figuras y tablas
@@ -155,7 +154,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjM4MjE5NDAsMTM0NjE3MjA3MiwxOD
+eyJoaXN0b3J5IjpbLTEyMzAwODc5NTUsMTM0NjE3MjA3MiwxOD
 QyOTMyNjkyLC0yMDEzNzM1NTEzLC0xMTI0MTMyODkwLDE3ODYx
 NzcwODMsMjA3OTc2MDkxOSwxNjg0NjYzMDQ1LC0zOTczNjAzND
 MsMTAwMzQ2Mjk2MywxMjc3MDQ2NTY1LDEzOTg4NTg0MDksLTE3
