@@ -47,8 +47,8 @@ En el preambulo se suelen indicar los paquetes que se usaran dentro del document
 % Este paquete proporciona una interfaz para modificar las dimensiones de la página.
 \usepackage{geometry}
 
-% Se especifica el tamano de la pagina , 
-\geometry{legalpaper, landscape, margin=2in}
+% Se especifica el tamaño de la pagina y los margenes
+\geometry{legalpaper, margin=2in}
 
 ```
 
@@ -135,7 +135,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ2OTc4Mjk2LC0xNzA5NTc4MzQsLTgyNj
-YxNjMxMSwtMTk1ODg0MzI2NCwtMTI1MTY2OTYwMCw5MTMyNDc4
-LDQ0MDE2MDUxMSw1NjQ3OTgxMDVdfQ==
+eyJoaXN0b3J5IjpbMTM5ODg1ODQwOSwtMTcwOTU3ODM0LC04Mj
+Y2MTYzMTEsLTE5NTg4NDMyNjQsLTEyNTE2Njk2MDAsOTEzMjQ3
+OCw0NDAxNjA1MTEsNTY0Nzk4MTA1XX0=
 -->
