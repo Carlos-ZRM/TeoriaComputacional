@@ -133,8 +133,7 @@ Podemos indicar el elemento grafico para crear listas, pero normalmente utilizam
 ```
 #### Figuras
 Podemos agregar las imágenes de forma simple 
-``` 
-
+```  
 % Agregar a la sección de preambulo
 \usepackage{graphicx}
 
@@ -145,6 +144,10 @@ Podemos agregar las imágenes de forma simple
 \includegraphics{imagen}
 ```
 
+Ademas podemos modificar el tamaño de la imagen por ejemplo :
+```
+
+```
 También podemos agregar las imágenes dentro de la sentencia **figure** este objeto nos permite agregar imágenes, posicionarlos dentro del documento, agregar títulos y referencias .
 ```
 \begin{figure}[h]
@@ -206,11 +209,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTI1MjcxODIsLTc2ODU4MDk2MSwxMz
-IyODAyMzE2LDE1MjgzNzAyMzAsLTEyMzAwODc5NTUsMTM0NjE3
-MjA3MiwxODQyOTMyNjkyLC0yMDEzNzM1NTEzLC0xMTI0MTMyOD
-kwLDE3ODYxNzcwODMsMjA3OTc2MDkxOSwxNjg0NjYzMDQ1LC0z
-OTczNjAzNDMsMTAwMzQ2Mjk2MywxMjc3MDQ2NTY1LDEzOTg4NT
-g0MDksLTE3MDk1NzgzNCwtODI2NjE2MzExLC0xOTU4ODQzMjY0
-LC0xMjUxNjY5NjAwXX0=
+eyJoaXN0b3J5IjpbMzI0OTE1NzAwLC0xMDUyNTI3MTgyLC03Nj
+g1ODA5NjEsMTMyMjgwMjMxNiwxNTI4MzcwMjMwLC0xMjMwMDg3
+OTU1LDEzNDYxNzIwNzIsMTg0MjkzMjY5MiwtMjAxMzczNTUxMy
+wtMTEyNDEzMjg5MCwxNzg2MTc3MDgzLDIwNzk3NjA5MTksMTY4
+NDY2MzA0NSwtMzk3MzYwMzQzLDEwMDM0NjI5NjMsMTI3NzA0Nj
+U2NSwxMzk4ODU4NDA5LC0xNzA5NTc4MzQsLTgyNjYxNjMxMSwt
+MTk1ODg0MzI2NF19
 -->
