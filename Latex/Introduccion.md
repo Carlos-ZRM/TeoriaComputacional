@@ -173,7 +173,9 @@ También podemos agregar las imágenes dentro de la sentencia **figure** este ob
 ```
 #### Tablas
 
-Al igual que las figuras las tablas pueden tener titulo, alineación, referencias. Se utilizara el comando tabular para most 
+Al igual que las figuras las tablas pueden tener titulo, alineación, referencias. Se utilizara el comando tabular para  crear las filas y columnas.  
+Dentro de los corchetes de tabular se define el número de columnas mediante let
+
 ```
 \begin{table}[h]
     \centering
@@ -186,6 +188,7 @@ Al igual que las figuras las tablas pueden tener titulo, alineación, referencia
     \label{tab:my_label}
 \end{table}
 ```
+
 Como hemos visto **table** y **figure** , así que podemos utilizar tabular para para ordenar las imágenes dentro de la figura a modo de tablas
 
 ```
@@ -245,11 +248,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTQ4MDE1NSwtMTk5NDQ1Nzg5MiwtMj
-AwNTY1MDUzMywyODc3MjE3MjQsLTIwMjk0ODYxODAsMzI0OTE1
-NzAwLC0xMDUyNTI3MTgyLC03Njg1ODA5NjEsMTMyMjgwMjMxNi
-wxNTI4MzcwMjMwLC0xMjMwMDg3OTU1LDEzNDYxNzIwNzIsMTg0
-MjkzMjY5MiwtMjAxMzczNTUxMywtMTEyNDEzMjg5MCwxNzg2MT
-c3MDgzLDIwNzk3NjA5MTksMTY4NDY2MzA0NSwtMzk3MzYwMzQz
-LDEwMDM0NjI5NjNdfQ==
+eyJoaXN0b3J5IjpbNTA4MDMwODQyLC0xOTk0NDU3ODkyLC0yMD
+A1NjUwNTMzLDI4NzcyMTcyNCwtMjAyOTQ4NjE4MCwzMjQ5MTU3
+MDAsLTEwNTI1MjcxODIsLTc2ODU4MDk2MSwxMzIyODAyMzE2LD
+E1MjgzNzAyMzAsLTEyMzAwODc5NTUsMTM0NjE3MjA3MiwxODQy
+OTMyNjkyLC0yMDEzNzM1NTEzLC0xMTI0MTMyODkwLDE3ODYxNz
+cwODMsMjA3OTc2MDkxOSwxNjg0NjYzMDQ1LC0zOTczNjAzNDMs
+MTAwMzQ2Mjk2M119
 -->
