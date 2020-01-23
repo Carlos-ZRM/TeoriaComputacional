@@ -20,7 +20,7 @@ Latex esta disponible en varios sistemas operativos. Por lo que pueden instalar 
 - MiKTeX
 - TeX Live
 
-Tambiien existent 
+Tambiien existen servicios web que permiten la edición colaborativa, versionamiento, 
 
 ## Estructura de un documento
 LatTex funciona mediante instrucciones. Las instrucciones pertenecen a algún paquete de Latex y algunas instrucciones pueden recibir parámetros. 
@@ -114,7 +114,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2NTMwNDQzLC0xOTU4ODQzMjY0LC0xMj
-UxNjY5NjAwLDkxMzI0NzgsNDQwMTYwNTExLDU2NDc5ODEwNV19
-
+eyJoaXN0b3J5IjpbMTg2NjAwMDI4MywtMTk1ODg0MzI2NCwtMT
+I1MTY2OTYwMCw5MTMyNDc4LDQ0MDE2MDUxMSw1NjQ3OTgxMDVd
+fQ==
 -->
