@@ -274,11 +274,14 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 Existen varias formas de referencia dentro de un documento. Podemos usar el paquete ``\usepackage{natbib}
 ``
 Usualmente la información de la bibliografía se almacena en un archivo tipo BibText. Este es parecido a un JSON y también divide los documentos en clases : Libros, revistas, tesis, reportes, patentes... 
-También es importante indicarle a Latext el tipo de bibliografía o 
+También es importante indicarle a Latext el tipo de bibliografía o forma de citar que utilizara. 
 ```    
+% estilo IEEE
 \bibliographystyle{IEEEtranN}
+& Archivo BibText
 \bibliography{cite.bib}
 ```
+ 
  
 # Paquetes comunes
 
@@ -297,11 +300,11 @@ También es importante indicarle a Latext el tipo de bibliografía o
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3NTQyNzEwLC02ODI4NTQyNCwtMTUzNj
-M3NDUwNCwtMTM3MTcyNTAwMSwtMTg3NDc0NzUwNSwtMTk5NDQ1
-Nzg5MiwtMjAwNTY1MDUzMywyODc3MjE3MjQsLTIwMjk0ODYxOD
-AsMzI0OTE1NzAwLC0xMDUyNTI3MTgyLC03Njg1ODA5NjEsMTMy
-MjgwMjMxNiwxNTI4MzcwMjMwLC0xMjMwMDg3OTU1LDEzNDYxNz
-IwNzIsMTg0MjkzMjY5MiwtMjAxMzczNTUxMywtMTEyNDEzMjg5
-MCwxNzg2MTc3MDgzXX0=
+eyJoaXN0b3J5IjpbLTIxMDQ4NjMxODAsLTY4Mjg1NDI0LC0xNT
+M2Mzc0NTA0LC0xMzcxNzI1MDAxLC0xODc0NzQ3NTA1LC0xOTk0
+NDU3ODkyLC0yMDA1NjUwNTMzLDI4NzcyMTcyNCwtMjAyOTQ4Nj
+E4MCwzMjQ5MTU3MDAsLTEwNTI1MjcxODIsLTc2ODU4MDk2MSwx
+MzIyODAyMzE2LDE1MjgzNzAyMzAsLTEyMzAwODc5NTUsMTM0Nj
+E3MjA3MiwxODQyOTMyNjkyLC0yMDEzNzM1NTEzLC0xMTI0MTMy
+ODkwLDE3ODYxNzcwODNdfQ==
 -->
