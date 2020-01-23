@@ -190,9 +190,13 @@ Como hemos visto **table** y **figure** , así que podemos utilizar tabular para
 				\\ 
 				\hline
             
-            \caption{Caption }
+            \caption{Caption}
         \end{figure}
 ```
+##### Listas de contenido 
+  También latex nos permite crear listas de figuras y
+  \listoffigures
+  \listoftables
 ### Código
 Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones para agregar el código: dentro del documento .tex o  desde un archivo. 
 
@@ -226,11 +230,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjk0ODYxODAsMzI0OTE1NzAwLC0xMD
-UyNTI3MTgyLC03Njg1ODA5NjEsMTMyMjgwMjMxNiwxNTI4Mzcw
-MjMwLC0xMjMwMDg3OTU1LDEzNDYxNzIwNzIsMTg0MjkzMjY5Mi
-wtMjAxMzczNTUxMywtMTEyNDEzMjg5MCwxNzg2MTc3MDgzLDIw
-Nzk3NjA5MTksMTY4NDY2MzA0NSwtMzk3MzYwMzQzLDEwMDM0Nj
-I5NjMsMTI3NzA0NjU2NSwxMzk4ODU4NDA5LC0xNzA5NTc4MzQs
-LTgyNjYxNjMxMV19
+eyJoaXN0b3J5IjpbMTgwNjM3NzI4OSwtMjAyOTQ4NjE4MCwzMj
+Q5MTU3MDAsLTEwNTI1MjcxODIsLTc2ODU4MDk2MSwxMzIyODAy
+MzE2LDE1MjgzNzAyMzAsLTEyMzAwODc5NTUsMTM0NjE3MjA3Mi
+wxODQyOTMyNjkyLC0yMDEzNzM1NTEzLC0xMTI0MTMyODkwLDE3
+ODYxNzcwODMsMjA3OTc2MDkxOSwxNjg0NjYzMDQ1LC0zOTczNj
+AzNDMsMTAwMzQ2Mjk2MywxMjc3MDQ2NTY1LDEzOTg4NTg0MDks
+LTE3MDk1NzgzNF19
 -->
