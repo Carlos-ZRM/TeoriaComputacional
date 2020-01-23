@@ -81,7 +81,8 @@ Los documentos se inician y cierran entre las instrucciones
 
 El documento se puede dividir por secciones de tal manera que se muestren de forma jerárquica en el indice. 
  
- - Parte: \part
+ - Parte: \part ( body y report) -1
+ - Parte: \part ( body y report) -1
  -  Capítulo: \chapter 
  - Apéndice: \appendix, \chapter
  -  Sección: \section 
@@ -93,7 +94,8 @@ El documento se puede dividir por secciones de tal manera que se muestren de for
 - Para construir el indice se utiliza ``\tableofcontents``
 - Podemos utilizar un nombre alternativo que aparecerá en la cabecera y en el indice. Es útil para nombres muy largos
 	``\section[nombre corto]{nombre muy largo}``
-- También se pueden crear secciones no numeradas y que no aparecerán en el indice ``\section*{nombre}``
+- También se pueden crear secciones no numeradas y que no aparecerán en el indice ``\section*{No numerada}``
+- 
 #### inport
 Se pueden importar diferentes documentos como .tex .pdf . estos se agregaran dentro del documento
 
@@ -284,11 +286,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxNDEwMTQsLTE1MzYzNzQ1MDQsLTEzNz
-E3MjUwMDEsLTE4NzQ3NDc1MDUsLTE5OTQ0NTc4OTIsLTIwMDU2
-NTA1MzMsMjg3NzIxNzI0LC0yMDI5NDg2MTgwLDMyNDkxNTcwMC
-wtMTA1MjUyNzE4MiwtNzY4NTgwOTYxLDEzMjI4MDIzMTYsMTUy
-ODM3MDIzMCwtMTIzMDA4Nzk1NSwxMzQ2MTcyMDcyLDE4NDI5Mz
-I2OTIsLTIwMTM3MzU1MTMsLTExMjQxMzI4OTAsMTc4NjE3NzA4
-MywyMDc5NzYwOTE5XX0=
+eyJoaXN0b3J5IjpbMTQ5NjY1NjE1NiwtMTUzNjM3NDUwNCwtMT
+M3MTcyNTAwMSwtMTg3NDc0NzUwNSwtMTk5NDQ1Nzg5MiwtMjAw
+NTY1MDUzMywyODc3MjE3MjQsLTIwMjk0ODYxODAsMzI0OTE1Nz
+AwLC0xMDUyNTI3MTgyLC03Njg1ODA5NjEsMTMyMjgwMjMxNiwx
+NTI4MzcwMjMwLC0xMjMwMDg3OTU1LDEzNDYxNzIwNzIsMTg0Mj
+kzMjY5MiwtMjAxMzczNTUxMywtMTEyNDEzMjg5MCwxNzg2MTc3
+MDgzLDIwNzk3NjA5MTldfQ==
 -->
