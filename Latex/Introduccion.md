@@ -7,6 +7,8 @@ Un **lenguaje de marcado**  es una forma de codificar un documento que, junto co
 
 ## Compiladores y aplicaciones
 
+Cada compilador contiene algunas librerías
+
 ## Estructura de un documento
 LatTex funciona mediante instrucciones. Las instrucciones pertenecen a algún paquete de Latex y algunas instrucciones pueden recibir parámetros. 
 Estas instrucciones inician con el símbolo ```\instrucción``` o pueden iniciar con las sentencias: 
@@ -99,7 +101,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNTcwODE0MywtMTk1ODg0MzI2NCwtMT
+eyJoaXN0b3J5IjpbMTg2ODIyMTQwMSwtMTk1ODg0MzI2NCwtMT
 I1MTY2OTYwMCw5MTMyNDc4LDQ0MDE2MDUxMSw1NjQ3OTgxMDVd
 fQ==
 -->
