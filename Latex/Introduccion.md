@@ -100,11 +100,20 @@ En cuanto al tamano de la letra este puede definrse al inicio del documento, med
 	 - Desde la instruccion de la clase del documento 
 	``\documentclass[12 pt]{article}`` 		
 	- Desde la instruccion
-		- 
+		- \tiny 
+		- \scriptsize 
+		- \footnotesize 
+		- \small 
+		- \normalsize 
+		- \large 
+		- \Large 
+		- \LARGE 
+		- \huge 
+		- \Huge
 	- Al modificar el tamanio de letra en la clase del documento se modifica \normalsize por lo que todas las demas sentencias tambien lo hacen
 	- El tamanio de la letra por default varia dependiendo del tipo de documento
 	- Al utilizar un comando modifica el tamanio del resto del documento hasta que termine o hasta que otra sentencia lo modifique
-	- Para solo modificar lineas del documento pueden encerrarse entre corchetes {\LargeTexto Largo}
+	- Para solo modificar algunas lineas del documento pueden encerrarse entre corchetes `` {\LargeTexto Largo}``
 
 
 ### Figuras y tablas
@@ -154,10 +163,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzAwODc5NTUsMTM0NjE3MjA3MiwxOD
-QyOTMyNjkyLC0yMDEzNzM1NTEzLC0xMTI0MTMyODkwLDE3ODYx
-NzcwODMsMjA3OTc2MDkxOSwxNjg0NjYzMDQ1LC0zOTczNjAzND
-MsMTAwMzQ2Mjk2MywxMjc3MDQ2NTY1LDEzOTg4NTg0MDksLTE3
-MDk1NzgzNCwtODI2NjE2MzExLC0xOTU4ODQzMjY0LC0xMjUxNj
-Y5NjAwLDkxMzI0NzgsNDQwMTYwNTExLDU2NDc5ODEwNV19
+eyJoaXN0b3J5IjpbMTk1NTMyNzA2MCwtMTIzMDA4Nzk1NSwxMz
+Q2MTcyMDcyLDE4NDI5MzI2OTIsLTIwMTM3MzU1MTMsLTExMjQx
+MzI4OTAsMTc4NjE3NzA4MywyMDc5NzYwOTE5LDE2ODQ2NjMwND
+UsLTM5NzM2MDM0MywxMDAzNDYyOTYzLDEyNzcwNDY1NjUsMTM5
+ODg1ODQwOSwtMTcwOTU3ODM0LC04MjY2MTYzMTEsLTE5NTg4ND
+MyNjQsLTEyNTE2Njk2MDAsOTEzMjQ3OCw0NDAxNjA1MTEsNTY0
+Nzk4MTA1XX0=
 -->
