@@ -155,10 +155,24 @@ También podemos agregar las imágenes dentro de la sentencia **figure** este ob
     % Pie de imagen
     \caption{Texto dentro de la imagen}
     % Label para hacer referencias dentro del texto
-    \label{label}
+    \label{fig:label}
 \end{figure}
 ```
+#### Tablas
 
+Al igual que las figuras las tablas pueden pueden 
+```
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|c}
+        \hline
+        Columna 1 & Columna 2  \\ \hline
+        Texto & Texto  \\hline 
+    \end{tabular}
+    \caption{Caption}
+    \label{tab:my_label}
+\end{table}
+```
 ### Código
 Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones para agregar el código: dentro del documento .tex o  desde un archivo. 
 
@@ -192,11 +206,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2ODU4MDk2MSwxMzIyODAyMzE2LDE1Mj
-gzNzAyMzAsLTEyMzAwODc5NTUsMTM0NjE3MjA3MiwxODQyOTMy
-NjkyLC0yMDEzNzM1NTEzLC0xMTI0MTMyODkwLDE3ODYxNzcwOD
-MsMjA3OTc2MDkxOSwxNjg0NjYzMDQ1LC0zOTczNjAzNDMsMTAw
-MzQ2Mjk2MywxMjc3MDQ2NTY1LDEzOTg4NTg0MDksLTE3MDk1Nz
-gzNCwtODI2NjE2MzExLC0xOTU4ODQzMjY0LC0xMjUxNjY5NjAw
-LDkxMzI0NzhdfQ==
+eyJoaXN0b3J5IjpbLTEwNTI1MjcxODIsLTc2ODU4MDk2MSwxMz
+IyODAyMzE2LDE1MjgzNzAyMzAsLTEyMzAwODc5NTUsMTM0NjE3
+MjA3MiwxODQyOTMyNjkyLC0yMDEzNzM1NTEzLC0xMTI0MTMyOD
+kwLDE3ODYxNzcwODMsMjA3OTc2MDkxOSwxNjg0NjYzMDQ1LC0z
+OTczNjAzNDMsMTAwMzQ2Mjk2MywxMjc3MDQ2NTY1LDEzOTg4NT
+g0MDksLTE3MDk1NzgzNCwtODI2NjE2MzExLC0xOTU4ODQzMjY0
+LC0xMjUxNjY5NjAwXX0=
 -->
