@@ -271,9 +271,12 @@ Y podemos referenciar el elemento con ``\ref{etiqueta}`` o ``\pageref{etiqueta}`
   \clearpage
   ```
 ### Ecuaciones
+
 - Herramienta para buscar símbolos 
 []:http://detexify.kirelabs.org/classify.html
-- Herramienta para crear we
+
+- Herramienta para crear ecuaciones 
+[]: https://www.codecogs.com/latex/eqneditor.php?lang=es-es
 Latex posee instrucciones dedidacas a crear texto matemático. 
 - Pueden escribirse formulas dentro del texto ``$ ax+by+c=0 $``
 - Pueden escribirse adjuntando un salto de linea ``$$ \frac{a}{b}=\frac{c}{d} $$``
@@ -419,11 +422,11 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4OTc0MTY1LC03MzczNTk0ODksNDE1Nj
-c2ODk4LC0yMTI3NDQyMTI4LC02NzYwNzk2OSwxOTE3ODkyNjM0
-LC02ODI4NTQyNCwtMTUzNjM3NDUwNCwtMTM3MTcyNTAwMSwtMT
-g3NDc0NzUwNSwtMTk5NDQ1Nzg5MiwtMjAwNTY1MDUzMywyODc3
-MjE3MjQsLTIwMjk0ODYxODAsMzI0OTE1NzAwLC0xMDUyNTI3MT
-gyLC03Njg1ODA5NjEsMTMyMjgwMjMxNiwxNTI4MzcwMjMwLC0x
-MjMwMDg3OTU1XX0=
+eyJoaXN0b3J5IjpbMjEzMjg2OTI5OCwtNzM3MzU5NDg5LDQxNT
+Y3Njg5OCwtMjEyNzQ0MjEyOCwtNjc2MDc5NjksMTkxNzg5MjYz
+NCwtNjgyODU0MjQsLTE1MzYzNzQ1MDQsLTEzNzE3MjUwMDEsLT
+E4NzQ3NDc1MDUsLTE5OTQ0NTc4OTIsLTIwMDU2NTA1MzMsMjg3
+NzIxNzI0LC0yMDI5NDg2MTgwLDMyNDkxNTcwMCwtMTA1MjUyNz
+E4MiwtNzY4NTgwOTYxLDEzMjI4MDIzMTYsMTUyODM3MDIzMCwt
+MTIzMDA4Nzk1NV19
 -->
