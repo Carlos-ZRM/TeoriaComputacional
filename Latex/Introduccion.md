@@ -85,7 +85,7 @@ Se pueden importar diferentes documentos como .tex .pdf . estos se agregaran den
  
 #### Texto
 - Saltos de linea ``\\``
-
+- Notas al pie ``\footnote{Texto de la nota al pie}``
 El texto puede tener varias decoraciones. entre ellas
 
 - Palabras en itálicas ``\textit{Palabras en italicas}``
@@ -258,11 +258,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzc4ODkxOCwtMTM3MTcyNTAwMSwtMT
-g3NDc0NzUwNSwtMTk5NDQ1Nzg5MiwtMjAwNTY1MDUzMywyODc3
-MjE3MjQsLTIwMjk0ODYxODAsMzI0OTE1NzAwLC0xMDUyNTI3MT
-gyLC03Njg1ODA5NjEsMTMyMjgwMjMxNiwxNTI4MzcwMjMwLC0x
-MjMwMDg3OTU1LDEzNDYxNzIwNzIsMTg0MjkzMjY5MiwtMjAxMz
-czNTUxMywtMTEyNDEzMjg5MCwxNzg2MTc3MDgzLDIwNzk3NjA5
-MTksMTY4NDY2MzA0NV19
+eyJoaXN0b3J5IjpbLTE1MzYzNzQ1MDQsLTEzNzE3MjUwMDEsLT
+E4NzQ3NDc1MDUsLTE5OTQ0NTc4OTIsLTIwMDU2NTA1MzMsMjg3
+NzIxNzI0LC0yMDI5NDg2MTgwLDMyNDkxNTcwMCwtMTA1MjUyNz
+E4MiwtNzY4NTgwOTYxLDEzMjI4MDIzMTYsMTUyODM3MDIzMCwt
+MTIzMDA4Nzk1NSwxMzQ2MTcyMDcyLDE4NDI5MzI2OTIsLTIwMT
+M3MzU1MTMsLTExMjQxMzI4OTAsMTc4NjE3NzA4MywyMDc5NzYw
+OTE5LDE2ODQ2NjMwNDVdfQ==
 -->
