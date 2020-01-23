@@ -193,7 +193,17 @@ Al igual que las figuras las tablas pueden tener titulo, alineación, referencia
 \end{table}
 ```
 
-Como hemos visto **table** y **figure** , así que podemos utilizar tabular para para ordenar las imágenes dentro de la figura a modo de tablas
+Como hemos visto **table** y **figure** son muy parecidos
+Podemos controlar la forma en que se posicionara en el texto 
+| 
+h Coloque el flotador aquí, es decir, aproximadamente en el mismo punto en que aparece en el texto fuente (sin embargo, no exactamente en el lugar)
+t Posición en la parte superior de la página.
+b Posición al final de la página.
+p Poner en una página especial solo para carrozas.
+! Anular los parámetros internos que usa LaTeX para determinar las posiciones de flotación "buenas".
+H Coloca el flotador exactamente en la ubicación del código LaTeX. Requiere el paquete flotante, [1] es decir, \ usepackage {float}.
+
+Ademas podemos utilizar tabular para para ordenar las imágenes dentro de la figura a modo de tablas
 
 ```
         \begin{figure}[H]
@@ -258,11 +268,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzYzNzQ1MDQsLTEzNzE3MjUwMDEsLT
-E4NzQ3NDc1MDUsLTE5OTQ0NTc4OTIsLTIwMDU2NTA1MzMsMjg3
-NzIxNzI0LC0yMDI5NDg2MTgwLDMyNDkxNTcwMCwtMTA1MjUyNz
-E4MiwtNzY4NTgwOTYxLDEzMjI4MDIzMTYsMTUyODM3MDIzMCwt
-MTIzMDA4Nzk1NSwxMzQ2MTcyMDcyLDE4NDI5MzI2OTIsLTIwMT
-M3MzU1MTMsLTExMjQxMzI4OTAsMTc4NjE3NzA4MywyMDc5NzYw
-OTE5LDE2ODQ2NjMwNDVdfQ==
+eyJoaXN0b3J5IjpbLTEyNzkxMTY4ODQsLTE1MzYzNzQ1MDQsLT
+EzNzE3MjUwMDEsLTE4NzQ3NDc1MDUsLTE5OTQ0NTc4OTIsLTIw
+MDU2NTA1MzMsMjg3NzIxNzI0LC0yMDI5NDg2MTgwLDMyNDkxNT
+cwMCwtMTA1MjUyNzE4MiwtNzY4NTgwOTYxLDEzMjI4MDIzMTYs
+MTUyODM3MDIzMCwtMTIzMDA4Nzk1NSwxMzQ2MTcyMDcyLDE4ND
+I5MzI2OTIsLTIwMTM3MzU1MTMsLTExMjQxMzI4OTAsMTc4NjE3
+NzA4MywyMDc5NzYwOTE5XX0=
 -->
