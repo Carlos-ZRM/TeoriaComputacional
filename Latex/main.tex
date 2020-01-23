@@ -1,0 +1,343 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, activeacute]{babel}
+\usepackage[numbers]{natbib}
+\usepackage{anysize}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{setspace}
+\usepackage[export]{adjustbox}
+
+
+\marginsize{1.5cm}{1.5cm}{2.5cm}{1.9cm}
+
+% Controla los márgenes {izquierda}{derecha}{arriba}{abajo}. 
+\renewcommand{\abstractname}{Resumen}
+\renewcommand{\tablename}{Tabla} 
+
+\raggedbottom 
+
+\begin{document}
+
+    \begin{center}
+        \begin{Large}
+            \textbf{Caracterización de las evoluciones fractales de los autómatas celulares elementales}
+            \\
+            
+            \textbf{Trabajo Terminal No.2018-A007}
+        \end{Large}
+        \\{Alumnos: Reyes Martínez Carlos Zacarías*, Peralta Ramírez Eric Fabián.}
+        \\{Directores: Juárez Martínez Genaro.}
+        \\{Turno para la presentación del TT: Matutino.}
+        \\{e-mail: carloszrm90@gmail.com.}
+    \end{center}
+    
+    \begin{abstract}
+        \noindent Este trabajo terminal propone una caracterización de los autómatas celulares elementales que producen en su configuración global patrones fractales. Se pretende desarrollar un simulador con el lenguaje de programación Python e implementando programación CUDA, esta caracterización en conjunto con el simulador, describe las reglas mediante un análisis de las historias de evoluciones, las gráficas de los polinomios de la teoría del campo promedio, los campos de atractores y una medida de entropía de los sistemas caóticos basada en la entropía de Shannon. 
+    \end{abstract}
+    
+    \textbf{Palabras Clave: autómatas celulares elementales, sistemas caóticos, fractales, caracterización, cómputo paralelo, GPU.}
+    
+    \begin{section}{Introducción}
+        \noindent El propósito del trabajo terminal es desarrollar un sistema que simule el comportamiento de los autómatas celulares elementales mediante cómputo paralelo. El uso de cómputo paralelo en una GPU (Graphics Processing Unit) nos permitirá simular autómatas con una longitud más grande en comparación con el computo secuencial de un CPU (Central Processing Unit)
+        Este simulador nos permitirá realizar una caracterización de los patrones fractales en los autómatas celulares elementales y un estudio sistemático de las características fenotípicas, genotípicas o morfológicas de los autómatas celulares que presentan comportamiento caótico y que en la configuración global proyectan fractales. ver Cuadro \ref{caoticos}.
+        No existe ningún TT relacionado con este problema. 
+        
+        \begin{figure}[H]
+            \centering
+            \label{caoticos}
+            \begin{tabular}{lllll}
+                \includegraphics[scale=.19]{img/r30.png}
+                &
+                \includegraphics[scale=.19]{img/r45.png}
+                &
+                \includegraphics[scale=.19]{img/r90.png}
+                &
+                \includegraphics[scale=.19]{img/r105.png}
+                & 
+                \includegraphics[scale=.19]{img/r150.png}
+            \end{tabular}
+            
+            \caption{Ejemplos de autómatas celulares elementales caóticos: 1. Regla 30, 2. Regla 45, 3. Regla 90, 4.Regla 105, 5. Regla 150 }
+        \end{figure}
+        
+        \noindent En la década de los 40 John von Neumann inicia la investigación de los autómatas celulares. 
+        El modelo de von Neumann es un autómata celular de dos dimensiones y cuyas células son cuadradas, éstas pueden tener un valor de un conjunto de veintinueve estados y la función de transición considera la vecindad de von Neumann. \cite{vonNeuman1966}
+        
+        \noindent Se define un autómata celular como un sistema dinámico discreto que evoluciona a través del tiempo mediante la iteración de reglas deterministas. Los elementos del sistema cambian en función de estas reglas y la configuración anterior del sistema. Se puede asociar mediante una función $ \varphi $ cada configuración del sistema a un tiempo $ t $.  
+        
+        \noindent Stephen Wolfram propone los autómatas celulares de una dimensión \cite{stephenW1982}\cite{stephenW1985} , están formados por un arreglo unidimensional de células y cada una tiene un valor entero.
+        \begin{table}[H]
+        \centering
+        \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+        \hline
+        $x_{0}$&$x_{1}$&\dots& $x_{i}$ &$\ldots$  & $x_{l}$  \\ \hline
+        \end{tabular}
+        \end{table}
+        \noindent Además establece la notación de los Autómatas celulares de una dimensión a partir de dos elementos $\left( k, r\right)$
+        donde $k$ representa la cardinalidad del conjunto de estados, por lo que $k = |\Sigma|$ y $r$ es el numero de vecinos de una célula central $x_{i}$ . 
+        \noindent
+        Un \textbf{autómata celular elemental}, ECAM por sus siglas en inglés esta representado por la pareja $(2,1)$.
+        Se pueden definir formalmente como la tupla. $ <\Sigma,\ r ,\ \varphi,\ C_{0} > $ Donde: $ \Sigma $ es el conjunto de estados posibles, $ r $ es el número de vecinos con respecto a una célula central,  $ \varphi $ es la función de transición, $ C_{i} $ es la configuración inicial del sistema.
+        
+        \noindent La \textit{vecindad} está compuesta por las células:  $x_{i-r}, \dots x_{i} , \dots, x_{i+r} $. Tiene una dimensión $2r + 1$. El numero de vecindades posibles esta dado por $k^{2r+1}$  
+
+        \noindent La función local $\varphi$ es una función que indica la transformación específica de cada vecindad a un elemento de $\Sigma$.  
+        Los valores $x_{i}$ están dados por $x_{i}= \varphi \left( x_{i-r}, \dots, x_{i}, \dots, x_{i+r} \right)$. Para producir la siguiente evolución del sistema se aplica a cada célula la función $\varphi$ \cite{genaroDoc}. No se puede calcular un autómata de longitud infinita por lo que se aplica una condición de contorno. La condición que se ocupa en el trabajo es la concatenación de la primera célula y la ultima para formar un anillo como se muestra en el cuadro  \ref{espacioEvoluciones}.
+
+        \begin{table}[H]
+        \centering
+        \label{espacioEvoluciones}
+        
+        \begin{tabular}{ll}
+        \includegraphics[max width=50mm ,max height=100 mm , keepaspectratio ]{img/cglobal.png}
+         &
+        \includegraphics[scale = .15, angle=90]{img/rule90.png}
+        \end{tabular}
+        \caption{Espacio de evoluciones de la regla 90 con una configuración inicial formada de una única celda en uno \cite{genaroMaes}}
+        \end{table}
+        
+        \noindent Una regla de evolución es la función de transicióńo aplicada en cada una de las vecindades con respecto al valor que tenga $k$ y $r$, cada vecindad tendrá una correspondencia con un elemento del conjunto de estados $\Sigma$. Las reglas son numeradas de acuerdo a la lectura de las producciones $x^{t+1}_{i}$ como un numero binario, siendo el dígito menos significativo la primera producción. Este número es representado en base decimal. Observar tabla \ref{regla190Trans} que muestra la regla de evolución 90. 
+        
+        \begin{table}[H]
+        \centering
+        \begin{spacing}{1.5}
+        \begin{tabular}{lll|l}
+        $x_{i-1}^{t}$ & $x_{i}^{t}$ & $x_{i+1}^{t}$ & $x_{i}^{t+1}$  \\\hline
+        0 & 0 & 0 & 0 \\
+        0 & 0 & 1 & 1 \\
+        0 & 1 & 0 & 0 \\
+        0 & 1 & 1 & 1 \\
+        1 & 0 & 0 & 1 \\
+        1 & 0 & 1 & 0 \\
+        1 & 1 & 0 & 1 \\
+        1 & 1 & 1 & 0
+        \end{tabular}
+        
+        \caption{Regla 90}
+        \label{regla190Trans}
+        \end{spacing}
+        
+        \end{table}
+
+        
+        \begin{subsection}{Clasificación}
+            \noindent La clasificación es uno de los temas más recurrentes en la investigación de los autómatas celulares. Se suelen establecer dos tipos principales de clasificaciones: Mediante la caracterización fenotípica, la caracterización genotípica.\\
+            \noindent La clasificación fenotípica divide la población en grupos de acuerdo el comportamiento observado y después establece medidas, usualmente de entropía, para explicar las diferencias.\\
+            \noindent La clasificación genotípica divide la población en grupos de acuerdo a las estructuras intrínsecas de las entidades que componen a la población, por ejemplo, las clasificaciones basadas en los campos de atractores o la teoría del campo promedio. \cite{meanField}
+            
+            \noindent Se puede establecer una clasificación morfológica \cite{redeker2013}\cite{adamanstky2010}, ésta analiza el comportamiento generativo que tienen las reglas a partir de una configuración inicial. El método para producir la diversidad morfológica en los autómatas celulares es establecer una configuración inicial de celdas con estado uniforme a esta configuración infinita se le añade una semilla, que es un conjunto finito de células no uniforme. Se genera la evolución del sistema y se analiza las estructuras producidas.
+            
+            \noindent También existe una clasificación de los autómatas celulares con memoria. Un autómata celular elemental con memoria (ECAM) es un autómata celular elemental (ECA) compuesto con una función de memoria, la nueva regla abre un dominio nuevo y extendido de reglas basadas en el dominio de los autómatas celulares elementales. Si se selecciona una regla elemental ECA y se compone esta regla con una función de memoria (mayoría, minoría y paridad) lograremos una nueva regla basada en una regla de ECA. Una serie de características de la regla original elemental serán más evidentes en su generalización de ECAM. Por lo tanto, la función de memoria determinará si la regla ECA original conserva la misma clase (con respecto a las clases de Wolfram \cite{stephenW1982}) o si cambia a otra clase.\cite{ecam} Ésta clasificación considera tres clases: 
+            \begin{itemize}
+                \item  Fuerte: Las funciones de memoria no pueden transformar una clase en otra.
+                \item  Moderado: Una función de memoria puede transformar la regla en otra clase y conservar la misma clase también.
+                \item Débil: Las funciones de memoria hacen la mayoría de las transformaciones y la regla cambia rápidamente a otra clase diferente.
+            \end{itemize}
+            
+        \end{subsection}
+        \subsubsection{Clasificación del comportamiento fractal}
+        \noindent Karel Culik II propone una subclasificación de los autómatas celulares con comportamiento caótico. Algunos autómatas celulares pertenecientes a la clase anterior muestran un comportamiento más regular, es decir no es completamente caótico, y algunos incluso pueden generar patrones similares a un fractal. La clasificación es fenotípica y divide a la clase caótica por el comportamiento de las evoluciones globales. \cite{culik1989} 
+        Ésta subclasificación considera tres clases
+        \begin{enumerate}
+           
+            \item La evolución conduce a un patrón altamente regular y recurrente (casi fractal)  En pequeñas configuraciones iniciales, el patrón es un fractal puro \footnote{Por un fractal puro, se entiende que la evolución puede ser caracterizada por una fórmula recursiva} con una dimensión fractal computable.
+
+            \item Para configuraciones iniciales aleatorias, la evolución conduce a un patrón caótico, excepto en configuraciones iniciales cortas para las cuales el patrón es fractal o casi fractal 
+
+            \item La evolución conduce a un comportamiento caótico.
+            
+        \end{enumerate}
+        
+        \subsection{Procesamiento paralelo CUDA}
+            \noindent Para realizar el simulador implementaremos procesamiento paralelo CUDA (Compute Unified Device Architecture).CUDA es una arquitectura de cálculo paralelo de NVIDIA que aprovecha la gran potencia de la GPU (unidad de procesamiento gráfico) para proporcionar un incremento extraordinario del rendimiento del sistema.
+       \subsubsection{Plataforma de cálculo paralelo CUDA}
+            \noindent La plataforma de cálculo paralelo CUDA proporciona unas cuantas extensiones de Python, C y C++ que permiten implementar el paralelismo en el procesamiento de tareas y datos con diferentes niveles de granularidad.\\
+    \end{section}
+    
+    \newpage
+    
+    \begin{section}{Objetivo}
+        \noindent Desarrollar un simulador que nos ayude a realizar un estudio sistemático para caracterizar autómatas celulares elementales que presenten comportamiento caótico, desde la proyección de algún tipo de fractal producido por la misma función. 
+    \end{section}
+    
+    \begin{section}{Justificación}
+        \noindent Ninguna caracterización o clasificación  considera como objetivo principal caracterizar o clasificar los autómatas celulares elementales que proyectan fractales. Pero si han sido consideradas clases que contienen comportamiento caótico o proyectan fractales en clasificaciones más generales. En éstas clases no han sido consideradas todas las reglas que pueden generar fractales por lo que es necesario una caracterización más especifica y extensa.\\
+        \noindent Para realizar una caracterización de los fractales que ocurren en los autómatas planteamos las siguientes preguntas: 
+        \begin{itemize}
+            \item ¿Qué características tienen los autómatas celulares elementales que producen fractales?
+            \item ¿Cómo se producen los fractales en el historial de evoluciones?
+        \end{itemize}   
+        \noindent Se necesita establecer una lista de características de los autómatas a nivel genotípico, fenotípico y morfológico para poder definir condiciones necesarias o suficientes para que un autómata celular genere fractales y así establecer una caracterización de las reglas que producen fractales.\\
+        \noindent Se definirá esta caracterización mediante la aplicación de herramientas matemáticas utilizadas en los sistemas dinámicos que nos permiten describir la dinámica de los autómatas.\\
+        \noindent Es necesario desarrollar un simulador que genere fractales a partir de condiciones iniciales del sistema y que muestre las medidas de entropía aplicadas en el análisis para caracterizar la producción de los fractales.\\
+        
+        \noindent La simulación de un autómata celular es importante porque nos permite conocer la dinámica global del sistema. Debido a la complejidad del sistema y al número de posibles configuraciones es imposible predecir el comportamiento aplicando herramientas matemáticas. Por ejemplo, en la mayoría de reglas si se establece una configuración inicial es imposible saber la configuración del sistema después de un tiempo t y la única forma de saberlo es simulando la evolución completa del sistema.
+        La dificultad de desarrollar el simulador reside en implementar estrategias para reducir el número de operaciones, los datos almacenados en memoria y el procesamiento de los resultados para generar gráficas. La evolución de cada célula es independiente de las demás por lo que para desarrollar el simulador se pueden aplicar algoritmos de programación paralela donde un hilo puede ejecutar una célula o un conjunto de células de forma independiente.\\
+    
+        \noindent El simulador que se desarrollará está destinado a la exploración de autómatas celulares. Entre los programas que existen para este campo de investigación son: 
+        \begin{enumerate}
+            \item Golly Game of Life (Golly) \textbf{Andrew Trevorrow and Tomas Rokicki}
+            \item Discrete Dynamics Lab (DDLab) \textbf{Andrew Wuensche}
+            \item NXLCAU systems \textbf{Harold V. McIntosh}
+            \item OSXCA systems \textbf{Genaro J. Martínez}
+        \end{enumerate}
+    \end{section}
+    
+    \begin{section}{Productos o resultados esperados}
+        \begin{itemize}
+            \item Simulador de la evolución de autómatas celulares desarrollado en el lenguaje Python utilizando programación CUDA.
+            \item Manual de usuario del simulador desarrollado.
+            \item Caracterización de los autómatas celulares elementales que presentan patrones fractales.
+            \item Cálculo de la entropía de Shannon para las reglas fractales con diferentes configuraciones iniciales.
+            \item Esquema comparativo entre varias clasificaciones propuestas anteriormente.
+        \end{itemize}	
+    
+        \subsection{Diagrama de componentes.}
+            \noindent En esta sección se presenta el diagrama de componentes del sistema. El componente principal es el simulador de los autómatas celulares elementales. Los demás componentes son módulos que extienden la funcionalidad del simulador, son independientes entre sí.
+            \begin{figure}[H]
+                \centering
+                \includegraphics[scale=.4]{img/arq.png}
+                \caption{Componentes del simulador}
+                \label{fig:dagrama}
+            \end{figure}
+    \end{section}
+    
+    \begin{section}{Metodología}
+        \noindent Se aplicará un desarrollo en espiral. Éste nos permitirá establecer objetivos de forma incremental y podremos evaluar los resultados obtenidos por etapas. También podremos controlar el desarrollo del simulador agregando los requerimientos o funcionalidades de forma prototípica.\\
+        \noindent El desarrollo basado en la metodología en espiral contempla una actividad para analizar los riesgos, ésta será cambiada por una actividad dedicada a analizar los resultados obtenidos.
+        \noindent Establecimos los siguientes ciclos y las funcionalidades principales que implementaran.   
+        \begin{enumerate}
+            \item Desarrollo del simulador 
+            \begin{itemize}
+            \item Desarrollar el simulador de autómatas celulares elementales. 
+                \item Generar el histograma de densidades. 
+            \end{itemize} 
+            \item Análisis genotípico
+                \begin{itemize}
+                     \item Generar campos de atractores.
+                    \item Generar polinomios del campo promedio.
+                \end{itemize}
+            \item Análisis fenotípico
+                \begin{itemize}
+                  \item Generar medidas de entropía extendida de la entropía  de Shannon.
+                    \item Generar exponentes de Lyapunov.
+                \end{itemize}
+            \item Análisis morfológico
+                \begin{itemize}
+                    \item Agregar modulo para generar fractales a partir de una expresión regular. 
+                    \item Producir y clasificar la diversidad morfológica a a partir de las expresiones regulares. 
+                    \item Analizar la dinámica de los fractales producidos. 
+                \end{itemize}
+            \item Generar caracterización.
+                \begin{itemize}
+                    \item Generar la caracterización de los patrones fractales.
+                    \item Análisis de la caracterización y generar cuadro comparativo con otras clasificaciones. 
+                \end{itemize}
+        \end{enumerate}
+    \end{section}
+    
+    \begin{section}{Cronograma}
+        \subsection{Cronograma Peralta Ramírez Eric Fabián }
+            \begin{table}[H]
+                \centering
+                \caption{Cronograma de actividades para el TT}
+                \label{my-label}
+                \begin{tabular}{|p{5cm}|l|l|l|l|l|l|l|l|l|l|}
+                    \hline
+                    Actividad & FEB & MAR & ABR & MAY & JUN & JUL & AGO & SEP & OCT & NOV \\ \hline
+                    Desarrollo del simulador.  & \cellcolor[gray]{0.73}  & \cellcolor[gray]{0.73} &  &  &  &  &  &  &  &  \\ \hline
+                    Pruebas del simulador.  &  & & \cellcolor[gray]{0.73}   &  &  &  &  &  &  &  \\ \hline
+                    Análisis genotípico: Generación de los campos de atractores &  &  & \cellcolor[gray]{0.73} & \cellcolor[gray]{0.73}  &  &  &  &  &  &  \\ \hline
+                    Análisis de resultados obtenidos &  &  &  & \cellcolor[gray]{0.73}  & \cellcolor[gray]{0.73}  &  &  &  &  &  \\ \hline
+                    Evaluación de TT I.&  &  &  &  & \cellcolor[gray]{0.73}  &  &  &  &  &  \\ \hline
+                    Análisis fenotípico: Generación exponentes de Lyapunov&  &  &  &  &  & \cellcolor[gray]{0.73}  &  &  &  &  \\ \hline
+                    Análisis morfológico: caracterización de la diversidad morfológica&  &  &  &  &  &  & \cellcolor[gray]{0.73}  &  \cellcolor[gray]{0.73} &  &  \\ \hline
+                    Comparación de las clasificaciones &  &  &  &  &  &  &  &  & \cellcolor[gray]{0.73}   &  \\ \hline
+                    Análisis de resultados obtenidos&  &  &  &  &  &  &  &  & \cellcolor[gray]{0.73}  &  \\ \hline
+                    Evaluación de TT II.&  &  &  &  &  &  &  &  &  & \cellcolor[gray]{0.73}\\ \hline
+                \end{tabular}
+            \end{table}
+            
+        \subsection{Cronograma Reyes Martínez Carlos Zacarías }
+            \begin{table}[H]
+                \centering
+                \caption{Cronograma de actividades para el TT}
+                \label{my-label}
+                \begin{tabular}{|p{5cm}|l|l|l|l|l|l|l|l|l|l|}
+                    \hline
+                    Actividad & FEB & MAR & ABR & MAY & JUN & JUL & AGO & SEP & OCT & NOV \\ \hline
+                    Desarrollo del simulador.  & \cellcolor[gray]{0.73}  & \cellcolor[gray]{0.73} &  &  &  &  &  &  &  &  \\ \hline
+                    Análisis fenotípico: Generación histograma de densidades.  &  & & \cellcolor[gray]{0.73}   &  &  &  &  &  &  &  \\ \hline
+                    Análisis genotípico: Generación de los polinomios del campo promedio &  &  &  & \cellcolor[gray]{0.73}  &  &  &  &  &  &  \\ \hline
+                    Análisis de resultados obtenidos &  &  &  & \cellcolor[gray]{0.73}  & \cellcolor[gray]{0.73}  &  &  &  &  &  \\ \hline
+                    Evaluación de TT I.&  &  &  &  & \cellcolor[gray]{0.73}  &  &  &  &  &  \\ \hline
+                    Análisis fenotípico: Generación entropía de Shannon&  &  &  &  &   & \cellcolor[gray]{0.73}  &  &  &  &  \\ \hline
+                    Análisis morfológico: Generación módulo de expresiones regulares &  &  &  &  &  &  & \cellcolor[gray]{0.73}  &  &  &  \\ \hline
+                    Generación de la caracterización&  &  &  &  &  &  &  & \cellcolor[gray]{0.73}  & \cellcolor[gray]{0.73}   &  \\ \hline
+                    Análisis de resultados obtenidos&  &  &  &  &  &  &  &  & \cellcolor[gray]{0.73}  &  \\ \hline
+                    Evaluación de TT II.&  &  &  &  &  &  &  &  &  & \cellcolor[gray]{0.73} \\ \hline
+                \end{tabular}
+            \end{table}
+    \end{section}
+     \clearpage
+    \newpage
+    
+    \listoffigures
+    \listoftables
+    \clearpage
+    
+    \bibliographystyle{IEEEtranN}
+    \bibliography{cite.bib}
+    
+    \clearpage
+    \newpage
+    
+    \begin{section}{Alumnos y directores}
+        \begin{table}[H]
+            \label{my-label}
+            \begin{tabular*}{4cm}[]{p{90mm}  p{20mm} >{\columncolor[gray]{0.93}}  p{60mm} }
+                \textit{Reyes Martínez Carlos Zacarías}.- Alumno de la carrera de Ing. en Sistemas Computacionales en ESCOM, Especialidad Sistemas, Boleta: 2015630410 , Tel. 5531880706 , email carloszrm@gmail.com
+                
+                \vspace{10mm}
+                Firma:\rule{60mm}{0.1mm}
+                &&   
+                CARÁCTER: Confidencial
+                FUNDAMENTO LEGAL: Art. 3, fracc. II, Art. 18, fracc. II y Art. 21, lineamiento 32, fracc. XVII de la L.F.T.A.I.P.G.
+                PARTES CONFIDENCIALES: No. de boleta y Teléfono
+                
+                \\
+                \\
+                \\
+                
+                \textit{Eric Fabián Peralta Ramírez }- Alumno de la carrera de Ing. en Sistemas Computacionales en ESCOM, Especialidad Sistemas, Boleta: 2015630371, Tel. 5536721058, email fabperaltar@gmail.com.
+                
+                \vspace{10mm}
+                Firma:\rule{60mm}{0.1mm}
+                && 
+                TURNO PARA LA PRESENTACIÓN DEL TRABAJO TERMINAL:
+                
+                \textbf{MATUTINO}
+                
+                \\
+                \\
+                \\
+
+                \textit{Genaro Juárez Martínez} Director.- 
+               Profesor de tiempo complejo en ESCOM del IPN. Lic. En Matemáticas Aplicadas y Computación. (FES Acatlán), Maestría en Ciencias de la Computación. (CINVESTAV- IPN), Doctorado en Ciencias de la Computación (CINVESTAV- IPN). Áreas de Interés: Autómatas celulares, sistemas complejos, computación, ciencias de la computación, vida artificial, robótica. \\Tel: 5729-6000 Ext: 52067, email: genarojm@gmail.com
+
+                
+                \vspace{10mm}
+                Firma:\rule{60mm}{0.1mm}
+                & 
+            \end{tabular*}
+        \end{table}
+    \end{section}
+
+\end{document}
