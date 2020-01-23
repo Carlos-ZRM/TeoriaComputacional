@@ -283,36 +283,6 @@ begin{equation*}
 ```
  
 
-## Estructura de un documento
-LatTex funciona mediante instrucciones. Las instrucciones pertenecen a algún paquete de Latex y algunas instrucciones pueden recibir parámetros. 
-Estas instrucciones inician con el símbolo ```\instrucción``` o pueden iniciar con las sentencias: 
-```
-\begin{instrucción}[parametros]
-	...
-\end{instrucción}
-```
-
-### Preambulo
-
-#### \documentclass
-
-#### \usepackage
-- \usepackage{listings}
-	Paquete que permite la inserción de código dentro del texto. Este paquete tiene formato para varios lenguajes de programación y el estilo puede personalizarse 
-#### información del documento
-- \title{PlantillaTeoria}
-- \author{Carlos - ZRM }
-- \date{Enero 2020}
-### Cuerpo
-Los documentos se inician y cierran entre las instrucciones 
-```
-\begin{document}
-	...
-\end{document}
-```
-
-
-
 ### Figuras y tablas
 #### Figuras
 Se pueden agregar las imágenes dentro de la sentencia figure .
@@ -446,11 +416,11 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNzM1OTQ4OSw0MTU2NzY4OTgsLTIxMj
-c0NDIxMjgsLTY3NjA3OTY5LDE5MTc4OTI2MzQsLTY4Mjg1NDI0
-LC0xNTM2Mzc0NTA0LC0xMzcxNzI1MDAxLC0xODc0NzQ3NTA1LC
-0xOTk0NDU3ODkyLC0yMDA1NjUwNTMzLDI4NzcyMTcyNCwtMjAy
-OTQ4NjE4MCwzMjQ5MTU3MDAsLTEwNTI1MjcxODIsLTc2ODU4MD
-k2MSwxMzIyODAyMzE2LDE1MjgzNzAyMzAsLTEyMzAwODc5NTUs
-MTM0NjE3MjA3Ml19
+eyJoaXN0b3J5IjpbLTE2MDU2NzMyMTcsLTczNzM1OTQ4OSw0MT
+U2NzY4OTgsLTIxMjc0NDIxMjgsLTY3NjA3OTY5LDE5MTc4OTI2
+MzQsLTY4Mjg1NDI0LC0xNTM2Mzc0NTA0LC0xMzcxNzI1MDAxLC
+0xODc0NzQ3NTA1LC0xOTk0NDU3ODkyLC0yMDA1NjUwNTMzLDI4
+NzcyMTcyNCwtMjAyOTQ4NjE4MCwzMjQ5MTU3MDAsLTEwNTI1Mj
+cxODIsLTc2ODU4MDk2MSwxMzIyODAyMzE2LDE1MjgzNzAyMzAs
+LTEyMzAwODc5NTVdfQ==
 -->
