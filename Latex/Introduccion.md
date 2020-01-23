@@ -183,12 +183,14 @@ Como hemos visto **table** y **figure** , así que podemos utilizar tabular para
             \centering
             \label{caoticos}
             \begin{tabular}{ll}
+                \hline
                 \includegraphics{img/r30.png}
                 &
-                \includegraphics[scale=.19]{img/r45.png}
-
+                \includegraphics{img/r45.png}
+				\\ 
+				\hline
             
-            \caption{Ejemplos de autómatas celulares elementales caóticos: 1. Regla 30, 2. Regla 45, 3. Regla 90, 4.Regla 105, 5. Regla 150 }
+            \caption{Caption }
         \end{figure}
 ```
 ### Código
@@ -224,7 +226,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjQxMjA2NDcsMzI0OTE1NzAwLC0xMD
+eyJoaXN0b3J5IjpbLTIwMjk0ODYxODAsMzI0OTE1NzAwLC0xMD
 UyNTI3MTgyLC03Njg1ODA5NjEsMTMyMjgwMjMxNiwxNTI4Mzcw
 MjMwLC0xMjMwMDg3OTU1LDEzNDYxNzIwNzIsMTg0MjkzMjY5Mi
 wtMjAxMzczNTUxMywtMTEyNDEzMjg5MCwxNzg2MTc3MDgzLDIw
