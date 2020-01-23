@@ -23,6 +23,7 @@ Latex esta disponible en varios sistemas operativos. Por lo que pueden instalar 
 Tambiien existen servicios web que permiten la edición colaborativa, versionamiento, previsualizar y compilar.
 
 - Overleaf
+- papeeria
 
 ## Estructura de un documento
 LatTex funciona mediante instrucciones. Las instrucciones pertenecen a algún paquete de Latex y algunas instrucciones pueden recibir parámetros. 
@@ -116,7 +117,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNjYxNjMxMSwtMTk1ODg0MzI2NCwtMT
-I1MTY2OTYwMCw5MTMyNDc4LDQ0MDE2MDUxMSw1NjQ3OTgxMDVd
-fQ==
+eyJoaXN0b3J5IjpbOTcxNjI4ODU3LC04MjY2MTYzMTEsLTE5NT
+g4NDMyNjQsLTEyNTE2Njk2MDAsOTEzMjQ3OCw0NDAxNjA1MTEs
+NTY0Nzk4MTA1XX0=
 -->
