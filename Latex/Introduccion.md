@@ -134,8 +134,13 @@ Podemos indicar el elemento grafico para crear listas, pero normalmente utilizam
 #### Figuras
 Se pueden agregar las imágenes dentro de la sentencia **figure** este objeto nos permite agregar imágenes, posicionarlos dentro del documento, agregar títulos y referencias .
 ```
-\begin{figure}[posicion]
-... figure contents ...
+\begin{figure}[h]
+    % alineacion 
+    \centering
+    
+    \includegraphics{universe}
+    \caption{Subtitulo}
+    \label{label}
 \end{figure}
 
 ``` 
@@ -181,7 +186,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNDcxNzgzMywxMzIyODAyMzE2LDE1Mj
+eyJoaXN0b3J5IjpbMTI2NTE5NzgzMSwxMzIyODAyMzE2LDE1Mj
 gzNzAyMzAsLTEyMzAwODc5NTUsMTM0NjE3MjA3MiwxODQyOTMy
 NjkyLC0yMDEzNzM1NTEzLC0xMTI0MTMyODkwLDE3ODYxNzcwOD
 MsMjA3OTc2MDkxOSwxNjg0NjYzMDQ1LC0zOTczNjAzNDMsMTAw
