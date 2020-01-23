@@ -154,6 +154,7 @@ Ademas podemos modificar el tamaño de la imagen por ejemplo :
 \includegraphics[max width=200mm ,max height=200 mm , keepaspectratio]{img/rule90.png}
 ```
 También podemos agregar las imágenes dentro de la sentencia **figure** este objeto nos permite agregar imágenes, posicionarlos dentro del documento, agregar títulos y referencias .
+
 ```
 \begin{figure}[h]
     % Alineacion 
@@ -240,7 +241,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNTU4MTQ2MCwtMjAwNTY1MDUzMywyOD
+eyJoaXN0b3J5IjpbMjEyNjc0NzM5MCwtMjAwNTY1MDUzMywyOD
 c3MjE3MjQsLTIwMjk0ODYxODAsMzI0OTE1NzAwLC0xMDUyNTI3
 MTgyLC03Njg1ODA5NjEsMTMyMjgwMjMxNiwxNTI4MzcwMjMwLC
 0xMjMwMDg3OTU1LDEzNDYxNzIwNzIsMTg0MjkzMjY5MiwtMjAx
