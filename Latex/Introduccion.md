@@ -273,7 +273,8 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 ### Referencias
 Existen varias formas de referencia dentro de un documento. Podemos usar el paquete ``\usepackage{natbib}
 ``
-Usualmente la información de la bibliografía se almacena en un
+Usualmente la información de la bibliografía se almacena en un archivo tipo BibText. Este es parecido a un JSON y también divide los documentos en clases : Libros, revistas, tesis, reportes, patentes... 
+También es importante indicarle a Latext el tipo de bibliografía o 
 ```    
 \bibliographystyle{IEEEtranN}
 \bibliography{cite.bib}
@@ -296,7 +297,7 @@ Usualmente la información de la bibliografía se almacena en un
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NzE3MjM2LC02ODI4NTQyNCwtMTUzNj
+eyJoaXN0b3J5IjpbNjA3NTQyNzEwLC02ODI4NTQyNCwtMTUzNj
 M3NDUwNCwtMTM3MTcyNTAwMSwtMTg3NDc0NzUwNSwtMTk5NDQ1
 Nzg5MiwtMjAwNTY1MDUzMywyODc3MjE3MjQsLTIwMjk0ODYxOD
 AsMzI0OTE1NzAwLC0xMDUyNTI3MTgyLC03Njg1ODA5NjEsMTMy
