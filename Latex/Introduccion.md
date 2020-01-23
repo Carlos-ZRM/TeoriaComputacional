@@ -176,7 +176,21 @@ Al igual que las figuras las tablas pueden pueden
     \label{tab:my_label}
 \end{table}
 ```
-Como hemos visto **table** y **figure** son muy parecidos, 
+Como hemos visto **table** y **figure** , así que podemos utilizar tabular para para ordenar las imágenes dentro de la figura a modo de tablas
+
+```
+        \begin{figure}[H]
+            \centering
+            \label{caoticos}
+            \begin{tabular}{ll}
+                \includegraphics{img/r30.png}
+                &
+                \includegraphics[scale=.19]{img/r45.png}
+
+            
+            \caption{Ejemplos de autómatas celulares elementales caóticos: 1. Regla 30, 2. Regla 45, 3. Regla 90, 4.Regla 105, 5. Regla 150 }
+        \end{figure}
+```
 ### Código
 Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones para agregar el código: dentro del documento .tex o  desde un archivo. 
 
@@ -210,11 +224,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTcyOTkyMSwzMjQ5MTU3MDAsLTEwNT
-I1MjcxODIsLTc2ODU4MDk2MSwxMzIyODAyMzE2LDE1MjgzNzAy
-MzAsLTEyMzAwODc5NTUsMTM0NjE3MjA3MiwxODQyOTMyNjkyLC
-0yMDEzNzM1NTEzLC0xMTI0MTMyODkwLDE3ODYxNzcwODMsMjA3
-OTc2MDkxOSwxNjg0NjYzMDQ1LC0zOTczNjAzNDMsMTAwMzQ2Mj
-k2MywxMjc3MDQ2NTY1LDEzOTg4NTg0MDksLTE3MDk1NzgzNCwt
-ODI2NjE2MzExXX0=
+eyJoaXN0b3J5IjpbLTExMjQxMjA2NDcsMzI0OTE1NzAwLC0xMD
+UyNTI3MTgyLC03Njg1ODA5NjEsMTMyMjgwMjMxNiwxNTI4Mzcw
+MjMwLC0xMjMwMDg3OTU1LDEzNDYxNzIwNzIsMTg0MjkzMjY5Mi
+wtMjAxMzczNTUxMywtMTEyNDEzMjg5MCwxNzg2MTc3MDgzLDIw
+Nzk3NjA5MTksMTY4NDY2MzA0NSwtMzk3MzYwMzQzLDEwMDM0Nj
+I5NjMsMTI3NzA0NjU2NSwxMzk4ODU4NDA5LC0xNzA5NTc4MzQs
+LTgyNjYxNjMxMV19
 -->
