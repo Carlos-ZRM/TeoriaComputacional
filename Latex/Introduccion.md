@@ -118,7 +118,8 @@ En cuanto al tamano de la letra este puede definrse al inicio del documento, med
 
 ### Figuras y tablas
 #### Listas
-Podemos indicar el elemento grafico para crear listas, pero normalmente utilizamos **itemize
+Podemos indicar el elemento grafico para crear listas, pero normalmente utilizamos **itemize** y **enumerate** . Estas pueden anidarse.
+
 #### Figuras
 Se pueden agregar las imágenes dentro de la sentencia figure .
 
@@ -165,11 +166,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjU3MzUxOTEsMTUyODM3MDIzMCwtMT
-IzMDA4Nzk1NSwxMzQ2MTcyMDcyLDE4NDI5MzI2OTIsLTIwMTM3
-MzU1MTMsLTExMjQxMzI4OTAsMTc4NjE3NzA4MywyMDc5NzYwOT
-E5LDE2ODQ2NjMwNDUsLTM5NzM2MDM0MywxMDAzNDYyOTYzLDEy
-NzcwNDY1NjUsMTM5ODg1ODQwOSwtMTcwOTU3ODM0LC04MjY2MT
-YzMTEsLTE5NTg4NDMyNjQsLTEyNTE2Njk2MDAsOTEzMjQ3OCw0
-NDAxNjA1MTFdfQ==
+eyJoaXN0b3J5IjpbLTQ4NzQwODgyLDE1MjgzNzAyMzAsLTEyMz
+AwODc5NTUsMTM0NjE3MjA3MiwxODQyOTMyNjkyLC0yMDEzNzM1
+NTEzLC0xMTI0MTMyODkwLDE3ODYxNzcwODMsMjA3OTc2MDkxOS
+wxNjg0NjYzMDQ1LC0zOTczNjAzNDMsMTAwMzQ2Mjk2MywxMjc3
+MDQ2NTY1LDEzOTg4NTg0MDksLTE3MDk1NzgzNCwtODI2NjE2Mz
+ExLC0xOTU4ODQzMjY0LC0xMjUxNjY5NjAwLDkxMzI0NzgsNDQw
+MTYwNTExXX0=
 -->
