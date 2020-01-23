@@ -84,7 +84,8 @@ Se pueden importar diferentes documentos como .tex .pdf . estos se agregaran den
 ``\input{filename.tex}``
  
 #### Texto
-- Saltos de linea 
+- Saltos de linea ``\\``
+- 
 
 El texto puede tener varias decoraciones. entre ellas
 
@@ -157,7 +158,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NDM1OTYxNywxODQyOTMyNjkyLC0yMD
+eyJoaXN0b3J5IjpbLTY0MjEzOTEwMCwxODQyOTMyNjkyLC0yMD
 EzNzM1NTEzLC0xMTI0MTMyODkwLDE3ODYxNzcwODMsMjA3OTc2
 MDkxOSwxNjg0NjYzMDQ1LC0zOTczNjAzNDMsMTAwMzQ2Mjk2My
 wxMjc3MDQ2NTY1LDEzOTg4NTg0MDksLTE3MDk1NzgzNCwtODI2
