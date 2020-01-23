@@ -60,7 +60,7 @@ En el preambulo se suelen indicar los paquetes que se usaran dentro del document
 
 ```
 
-También es posible 
+También es posible escribir los paquetes en un archivo terminacion **.sty** e importarlo en el documento princip 
 \usepackage{packages}
 
 
@@ -153,9 +153,10 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjQxMzI4OTAsMTc4NjE3NzA4MywyMD
-c5NzYwOTE5LDE2ODQ2NjMwNDUsLTM5NzM2MDM0MywxMDAzNDYy
-OTYzLDEyNzcwNDY1NjUsMTM5ODg1ODQwOSwtMTcwOTU3ODM0LC
-04MjY2MTYzMTEsLTE5NTg4NDMyNjQsLTEyNTE2Njk2MDAsOTEz
-MjQ3OCw0NDAxNjA1MTEsNTY0Nzk4MTA1XX0=
+eyJoaXN0b3J5IjpbMTExMzQ5MDU1MywtMTEyNDEzMjg5MCwxNz
+g2MTc3MDgzLDIwNzk3NjA5MTksMTY4NDY2MzA0NSwtMzk3MzYw
+MzQzLDEwMDM0NjI5NjMsMTI3NzA0NjU2NSwxMzk4ODU4NDA5LC
+0xNzA5NTc4MzQsLTgyNjYxNjMxMSwtMTk1ODg0MzI2NCwtMTI1
+MTY2OTYwMCw5MTMyNDc4LDQ0MDE2MDUxMSw1NjQ3OTgxMDVdfQ
+==
 -->
