@@ -60,11 +60,12 @@ En el preambulo se suelen indicar los paquetes que se usaran dentro del document
 
 ```
 
-También es posible escribir los paquetes en un archivo terminacion **.sty** e importarlo en el documento princip 
+También es posible escribir los paquetes en un archivo terminacion **.sty** e importarlo en el documento principal
+ ```
+\documentclass{aticle}
+% Agregamos el archivo packages.sty al directorio raiz
 \usepackage{packages}
-
-
-#### \usepackage
+```
 
 #### información del documento
 - \title{PlantillaTeoria}
@@ -153,7 +154,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMzQ5MDU1MywtMTEyNDEzMjg5MCwxNz
+eyJoaXN0b3J5IjpbMTEyNTIwMDI0MCwtMTEyNDEzMjg5MCwxNz
 g2MTc3MDgzLDIwNzk3NjA5MTksMTY4NDY2MzA0NSwtMzk3MzYw
 MzQzLDEwMDM0NjI5NjMsMTI3NzA0NjU2NSwxMzk4ODU4NDA5LC
 0xNzA5NTc4MzQsLTgyNjYxNjMxMSwtMTk1ODg0MzI2NCwtMTI1
