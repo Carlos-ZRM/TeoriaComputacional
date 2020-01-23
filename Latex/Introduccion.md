@@ -150,6 +150,9 @@ Ademas podemos modificar el tamaño de la imagen por ejemplo :
 \includegraphics[scale=.15, angle=90]{img/rule90.png}
 
 
+% Para agregar dimensiones maximas se utiliza el paquete
+% \usepackage[export]{adjustbox}
+
 % Escala la imagen a dimensiones maximas, si la imagen no las sobrepasa no tiene transformaciones 
 \includegraphics[max width=200mm ,max height=200 mm , keepaspectratio]{img/rule90.png}
 ```
@@ -241,11 +244,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjc0NzM5MCwtMjAwNTY1MDUzMywyOD
-c3MjE3MjQsLTIwMjk0ODYxODAsMzI0OTE1NzAwLC0xMDUyNTI3
-MTgyLC03Njg1ODA5NjEsMTMyMjgwMjMxNiwxNTI4MzcwMjMwLC
-0xMjMwMDg3OTU1LDEzNDYxNzIwNzIsMTg0MjkzMjY5MiwtMjAx
-MzczNTUxMywtMTEyNDEzMjg5MCwxNzg2MTc3MDgzLDIwNzk3Nj
-A5MTksMTY4NDY2MzA0NSwtMzk3MzYwMzQzLDEwMDM0NjI5NjMs
-MTI3NzA0NjU2NV19
+eyJoaXN0b3J5IjpbLTE5OTQ0NTc4OTIsLTIwMDU2NTA1MzMsMj
+g3NzIxNzI0LC0yMDI5NDg2MTgwLDMyNDkxNTcwMCwtMTA1MjUy
+NzE4MiwtNzY4NTgwOTYxLDEzMjI4MDIzMTYsMTUyODM3MDIzMC
+wtMTIzMDA4Nzk1NSwxMzQ2MTcyMDcyLDE4NDI5MzI2OTIsLTIw
+MTM3MzU1MTMsLTExMjQxMzI4OTAsMTc4NjE3NzA4MywyMDc5Nz
+YwOTE5LDE2ODQ2NjMwNDUsLTM5NzM2MDM0MywxMDAzNDYyOTYz
+LDEyNzcwNDY1NjVdfQ==
 -->
