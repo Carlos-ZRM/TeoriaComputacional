@@ -96,12 +96,12 @@ El texto puede tener varias decoraciones. entre ellas
 
 - Tamaño
 En cuanto al tamano de la letra este puede definrse al inicio del documento, mediante una sentencia o en un bloque. 
-Desde la instruccion de la clase del documento 
 
-\documentclass[12 pt]{article} 
+  - Desde la instruccion de la clase del documento 
 
-Las sentencias que provee latex son las siguientes
-
+	``\documentclass[12 pt]{article}`` 
+	
+-  Tama	
 - Al modificar el tamanio de letra en la clase del documento se modifica \normalsize por lo que todas las demas sentencias tambien lo hacen
 - El tamanio de la letra por default varia dependiendo del tipo de documento
 - Al utilizar un comando modifica el tamanio del resto del documento hasta que termine o hasta que otra sentencia lo modifique
@@ -155,10 +155,10 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NjE3MjA3MiwxODQyOTMyNjkyLC0yMD
-EzNzM1NTEzLC0xMTI0MTMyODkwLDE3ODYxNzcwODMsMjA3OTc2
-MDkxOSwxNjg0NjYzMDQ1LC0zOTczNjAzNDMsMTAwMzQ2Mjk2My
-wxMjc3MDQ2NTY1LDEzOTg4NTg0MDksLTE3MDk1NzgzNCwtODI2
-NjE2MzExLC0xOTU4ODQzMjY0LC0xMjUxNjY5NjAwLDkxMzI0Nz
-gsNDQwMTYwNTExLDU2NDc5ODEwNV19
+eyJoaXN0b3J5IjpbLTE2MjM4MjE5NDAsMTM0NjE3MjA3MiwxOD
+QyOTMyNjkyLC0yMDEzNzM1NTEzLC0xMTI0MTMyODkwLDE3ODYx
+NzcwODMsMjA3OTc2MDkxOSwxNjg0NjYzMDQ1LC0zOTczNjAzND
+MsMTAwMzQ2Mjk2MywxMjc3MDQ2NTY1LDEzOTg4NTg0MDksLTE3
+MDk1NzgzNCwtODI2NjE2MzExLC0xOTU4ODQzMjY0LC0xMjUxNj
+Y5NjAwLDkxMzI0NzgsNDQwMTYwNTExLDU2NDc5ODEwNV19
 -->
