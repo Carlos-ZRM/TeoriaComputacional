@@ -85,13 +85,12 @@ Se pueden importar diferentes documentos como .tex .pdf . estos se agregaran den
  
 #### Texto
 - Saltos de linea ``\\``
-- 
 
 El texto puede tener varias decoraciones. entre ellas
 
-\textit{Palabras en italicas}
-\textbf{Palabras resaltadas}
-\underline{underlined words}
+- Palabras en itálicas ``\textit{Palabras en italicas}``
+- Palabras resaltadas ``\textbf{Palabras resaltadas}``
+- Palabras subrayadas ``\underline{underlined words}``
 
 - Se puede encapsular los decoradores por ejemplo
 
@@ -158,7 +157,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MjEzOTEwMCwxODQyOTMyNjkyLC0yMD
+eyJoaXN0b3J5IjpbMjEzMTE5MTA5OCwxODQyOTMyNjkyLC0yMD
 EzNzM1NTEzLC0xMTI0MTMyODkwLDE3ODYxNzcwODMsMjA3OTc2
 MDkxOSwxNjg0NjYzMDQ1LC0zOTczNjAzNDMsMTAwMzQ2Mjk2My
 wxMjc3MDQ2NTY1LDEzOTg4NTg0MDksLTE3MDk1NzgzNCwtODI2
