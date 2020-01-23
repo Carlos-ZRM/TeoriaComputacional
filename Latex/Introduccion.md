@@ -281,7 +281,27 @@ También es importante indicarle a Latext el tipo de bibliografía o forma de ci
 & Archivo BibText
 \bibliography{cite.bib}
 ```
- 
+ Ejemplos de documentos en BoibText
+ ```
+ @article
+{   adamanstky2013-OnCreativity,
+    Title = {On Creativity of Elementary Cellular Automata},
+    Journal = {Complex Systems},
+    Author = {A. Adamatzky and A. Wuensche},
+    Volume = {22},
+    Number = {4},
+    Year = {2013}    
+}
+@book
+{
+McIntosh2009-OneDimensionalCA,
+Author ={H. McIntosh },
+Title={One Dimensional Cellular Automata},
+Publisher = {Luniver Press },
+Year = {2009}
+}
+
+ ```
  
 # Paquetes comunes
 
@@ -300,11 +320,11 @@ También es importante indicarle a Latext el tipo de bibliografía o forma de ci
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDQ4NjMxODAsLTY4Mjg1NDI0LC0xNT
-M2Mzc0NTA0LC0xMzcxNzI1MDAxLC0xODc0NzQ3NTA1LC0xOTk0
-NDU3ODkyLC0yMDA1NjUwNTMzLDI4NzcyMTcyNCwtMjAyOTQ4Nj
-E4MCwzMjQ5MTU3MDAsLTEwNTI1MjcxODIsLTc2ODU4MDk2MSwx
-MzIyODAyMzE2LDE1MjgzNzAyMzAsLTEyMzAwODc5NTUsMTM0Nj
-E3MjA3MiwxODQyOTMyNjkyLC0yMDEzNzM1NTEzLC0xMTI0MTMy
-ODkwLDE3ODYxNzcwODNdfQ==
+eyJoaXN0b3J5IjpbLTI1NTg3MjYzMywtNjgyODU0MjQsLTE1Mz
+YzNzQ1MDQsLTEzNzE3MjUwMDEsLTE4NzQ3NDc1MDUsLTE5OTQ0
+NTc4OTIsLTIwMDU2NTA1MzMsMjg3NzIxNzI0LC0yMDI5NDg2MT
+gwLDMyNDkxNTcwMCwtMTA1MjUyNzE4MiwtNzY4NTgwOTYxLDEz
+MjI4MDIzMTYsMTUyODM3MDIzMCwtMTIzMDA4Nzk1NSwxMzQ2MT
+cyMDcyLDE4NDI5MzI2OTIsLTIwMTM3MzU1MTMsLTExMjQxMzI4
+OTAsMTc4NjE3NzA4M119
 -->
