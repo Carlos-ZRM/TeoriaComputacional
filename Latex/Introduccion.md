@@ -145,15 +145,17 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  ![Layout-dimensions.png](https://sharelatex-wiki-cdn-671420.c.cdn77.org/learn-scripts/images/f/fc/Layout-dimensions.png)
 
  - \usepackage[utf8]{inputenc}
+  Con esta instrucción se le indica a látex que codificación debe utilizar. Se agrega utf8 para añadir acentos.
+  
 - \usepackage{listings}
 	Paquete que permite la inserción de código dentro del texto. Este paquete tiene formato para varios lenguajes de programación y el estilo puede personalizarse 
 	
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NjE3NzA4MywyMDc5NzYwOTE5LDE2OD
-Q2NjMwNDUsLTM5NzM2MDM0MywxMDAzNDYyOTYzLDEyNzcwNDY1
-NjUsMTM5ODg1ODQwOSwtMTcwOTU3ODM0LC04MjY2MTYzMTEsLT
-E5NTg4NDMyNjQsLTEyNTE2Njk2MDAsOTEzMjQ3OCw0NDAxNjA1
-MTEsNTY0Nzk4MTA1XX0=
+eyJoaXN0b3J5IjpbLTExMjQxMzI4OTAsMTc4NjE3NzA4MywyMD
+c5NzYwOTE5LDE2ODQ2NjMwNDUsLTM5NzM2MDM0MywxMDAzNDYy
+OTYzLDEyNzcwNDY1NjUsMTM5ODg1ODQwOSwtMTcwOTU3ODM0LC
+04MjY2MTYzMTEsLTE5NTg4NDMyNjQsLTEyNTE2Njk2MDAsOTEz
+MjQ3OCw0NDAxNjA1MTEsNTY0Nzk4MTA1XX0=
 -->
