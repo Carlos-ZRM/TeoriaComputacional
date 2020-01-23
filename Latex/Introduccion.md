@@ -48,7 +48,7 @@ La primera instrucción indica la clase del documento que el motor creará
 | **report** | Para informes técnicos. Es similar a la clase  `book`. |
 | **beamer** | Otra clase para presentaciones mediante diapositivas. |
 
-En el preambulo se suelen indicar los paquetes que se usaran dentro del documento. Así como instrucciones que nos permiten darle formato al documento.  | 
+En el preambulo se suelen indicar los paquetes que se usaran dentro del documento. Así como instrucciones que nos permiten darle formato al documento.  
 ```
 \documentclass{aticle}
 
@@ -65,9 +65,7 @@ También es posible
 
 
 #### \usepackage
-- \usepackage{listings}
-	Paquete que permite la inserción de código dentro del texto. Este paquete tiene formato para varios lenguajes de programación y el estilo puede personalizarse 
-	
+
 #### información del documento
 - \title{PlantillaTeoria}
 - \author{Carlos - ZRM }
@@ -145,12 +143,17 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 - \package{geometry}
  ![Layout-dimensions.png](https://sharelatex-wiki-cdn-671420.c.cdn77.org/learn-scripts/images/f/fc/Layout-dimensions.png)
-- 
+
+ - \usepackage[utf8]{inputenc}
+- \usepackage{listings}
+	Paquete que permite la inserción de código dentro del texto. Este paquete tiene formato para varios lenguajes de programación y el estilo puede personalizarse 
+	
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3OTc2MDkxOSwxNjg0NjYzMDQ1LC0zOT
-czNjAzNDMsMTAwMzQ2Mjk2MywxMjc3MDQ2NTY1LDEzOTg4NTg0
-MDksLTE3MDk1NzgzNCwtODI2NjE2MzExLC0xOTU4ODQzMjY0LC
-0xMjUxNjY5NjAwLDkxMzI0NzgsNDQwMTYwNTExLDU2NDc5ODEw
-NV19
+eyJoaXN0b3J5IjpbMTc4NjE3NzA4MywyMDc5NzYwOTE5LDE2OD
+Q2NjMwNDUsLTM5NzM2MDM0MywxMDAzNDYyOTYzLDEyNzcwNDY1
+NjUsMTM5ODg1ODQwOSwtMTcwOTU3ODM0LC04MjY2MTYzMTEsLT
+E5NTg4NDMyNjQsLTEyNTE2Njk2MDAsOTEzMjQ3OCw0NDAxNjA1
+MTEsNTY0Nzk4MTA1XX0=
 -->
