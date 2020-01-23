@@ -325,7 +325,8 @@ Year = {2009}
 	}
  ```
 
-La forma que tenemos para
+La forma que tenemos para citar dentro del texto es mediante el comando cite
+```\cite{Seck2002-Phd-AnalisisTopo}```
  
 # Paquetes comunes
 
@@ -344,7 +345,7 @@ La forma que tenemos para
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNzY2MjQ0MSwtNjgyODU0MjQsLTE1Mz
+eyJoaXN0b3J5IjpbMTkxNzg5MjYzNCwtNjgyODU0MjQsLTE1Mz
 YzNzQ1MDQsLTEzNzE3MjUwMDEsLTE4NzQ3NDc1MDUsLTE5OTQ0
 NTc4OTIsLTIwMDU2NTA1MzMsMjg3NzIxNzI0LC0yMDI5NDg2MT
 gwLDMyNDkxNTcwMCwtMTA1MjUyNzE4MiwtNzY4NTgwOTYxLDEz
