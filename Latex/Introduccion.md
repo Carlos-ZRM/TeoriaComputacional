@@ -269,6 +269,8 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 ```
 \lstinputlisting[language=Python, caption= Ejemplo de Hola mundo en Python ]{holaMundo.py}
 ```
+### Referencias
+Existen varias formas de referencia dentro de un docu
  
 # Paquetes comunes
 
@@ -287,11 +289,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4Mjg1NDI0LC0xNTM2Mzc0NTA0LC0xMz
-cxNzI1MDAxLC0xODc0NzQ3NTA1LC0xOTk0NDU3ODkyLC0yMDA1
-NjUwNTMzLDI4NzcyMTcyNCwtMjAyOTQ4NjE4MCwzMjQ5MTU3MD
-AsLTEwNTI1MjcxODIsLTc2ODU4MDk2MSwxMzIyODAyMzE2LDE1
-MjgzNzAyMzAsLTEyMzAwODc5NTUsMTM0NjE3MjA3MiwxODQyOT
-MyNjkyLC0yMDEzNzM1NTEzLC0xMTI0MTMyODkwLDE3ODYxNzcw
-ODMsMjA3OTc2MDkxOV19
+eyJoaXN0b3J5IjpbNzQ1MzczNTA0LC02ODI4NTQyNCwtMTUzNj
+M3NDUwNCwtMTM3MTcyNTAwMSwtMTg3NDc0NzUwNSwtMTk5NDQ1
+Nzg5MiwtMjAwNTY1MDUzMywyODc3MjE3MjQsLTIwMjk0ODYxOD
+AsMzI0OTE1NzAwLC0xMDUyNTI3MTgyLC03Njg1ODA5NjEsMTMy
+MjgwMjMxNiwxNTI4MzcwMjMwLC0xMjMwMDg3OTU1LDEzNDYxNz
+IwNzIsMTg0MjkzMjY5MiwtMjAxMzczNTUxMywtMTEyNDEzMjg5
+MCwxNzg2MTc3MDgzXX0=
 -->
