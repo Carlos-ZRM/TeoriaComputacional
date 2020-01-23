@@ -266,7 +266,7 @@ Y podemos referenciar el elemento con ``\ref{etiqueta}`` o ``\pageref{etiqueta}`
   \clearpage
   ```
 ### Ecuaciones
-Latex posee instrucciones dedidacas a crear texto
+Latex posee instrucciones dedidacas a crear texto matemático. Pueden escribirse formulas dentro del texto ``$ ax+by+c=0 $``
 ### Código
 Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones para agregar el código: dentro del documento .tex o  desde un archivo. 
 
@@ -384,11 +384,11 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NjA3OTY5LDE5MTc4OTI2MzQsLTY4Mj
-g1NDI0LC0xNTM2Mzc0NTA0LC0xMzcxNzI1MDAxLC0xODc0NzQ3
-NTA1LC0xOTk0NDU3ODkyLC0yMDA1NjUwNTMzLDI4NzcyMTcyNC
-wtMjAyOTQ4NjE4MCwzMjQ5MTU3MDAsLTEwNTI1MjcxODIsLTc2
-ODU4MDk2MSwxMzIyODAyMzE2LDE1MjgzNzAyMzAsLTEyMzAwOD
-c5NTUsMTM0NjE3MjA3MiwxODQyOTMyNjkyLC0yMDEzNzM1NTEz
-LC0xMTI0MTMyODkwXX0=
+eyJoaXN0b3J5IjpbLTE4OTc0NzcxMiwtNjc2MDc5NjksMTkxNz
+g5MjYzNCwtNjgyODU0MjQsLTE1MzYzNzQ1MDQsLTEzNzE3MjUw
+MDEsLTE4NzQ3NDc1MDUsLTE5OTQ0NTc4OTIsLTIwMDU2NTA1Mz
+MsMjg3NzIxNzI0LC0yMDI5NDg2MTgwLDMyNDkxNTcwMCwtMTA1
+MjUyNzE4MiwtNzY4NTgwOTYxLDEzMjI4MDIzMTYsMTUyODM3MD
+IzMCwtMTIzMDA4Nzk1NSwxMzQ2MTcyMDcyLDE4NDI5MzI2OTIs
+LTIwMTM3MzU1MTNdfQ==
 -->
