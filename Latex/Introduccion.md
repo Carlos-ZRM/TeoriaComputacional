@@ -136,10 +136,12 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 # Paquetes comunes
 
 - \package{geometry}
+ ![Layout-dimensions.png](https://sharelatex-wiki-cdn-671420.c.cdn77.org/learn-scripts/images/f/fc/Layout-dimensions.png)
+- 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODcwOTUzMTEsMTI3NzA0NjU2NSwxMz
-k4ODU4NDA5LC0xNzA5NTc4MzQsLTgyNjYxNjMxMSwtMTk1ODg0
-MzI2NCwtMTI1MTY2OTYwMCw5MTMyNDc4LDQ0MDE2MDUxMSw1Nj
-Q3OTgxMDVdfQ==
+eyJoaXN0b3J5IjpbMTAwMzQ2Mjk2MywxMjc3MDQ2NTY1LDEzOT
+g4NTg0MDksLTE3MDk1NzgzNCwtODI2NjE2MzExLC0xOTU4ODQz
+MjY0LC0xMjUxNjY5NjAwLDkxMzI0NzgsNDQwMTYwNTExLDU2ND
+c5ODEwNV19
 -->
