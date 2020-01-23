@@ -135,11 +135,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  
 # Paquetes comunes
 
-\package
+- \package{geometry}
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMjMzNjE0LDEyNzcwNDY1NjUsMTM5OD
-g1ODQwOSwtMTcwOTU3ODM0LC04MjY2MTYzMTEsLTE5NTg4NDMy
-NjQsLTEyNTE2Njk2MDAsOTEzMjQ3OCw0NDAxNjA1MTEsNTY0Nz
-k4MTA1XX0=
+eyJoaXN0b3J5IjpbLTE3ODcwOTUzMTEsMTI3NzA0NjU2NSwxMz
+k4ODU4NDA5LC0xNzA5NTc4MzQsLTgyNjYxNjMxMSwtMTk1ODg0
+MzI2NCwtMTI1MTY2OTYwMCw5MTMyNDc4LDQ0MDE2MDUxMSw1Nj
+Q3OTgxMDVdfQ==
 -->
