@@ -265,6 +265,8 @@ Y podemos referenciar el elemento con ``\ref{etiqueta}`` o ``\pageref{etiqueta}`
   \listoftables
   \clearpage
   ```
+### Ecuaciones
+Latex posee instrucciones dedidacas a crear texto
 ### Código
 Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones para agregar el código: dentro del documento .tex o  desde un archivo. 
 
