@@ -78,6 +78,11 @@ Los documentos se inician y cierran entre las instrucciones
 	...
 \end{document}
 ```
+
+El documento se puede dividir por secciones de tal manera que se muestren de forma jerárquica en el indice. 
+
+
+- Para construir el indice se utiliza ``\tableofcontents``
 #### inport
 Se pueden importar diferentes documentos como .tex .pdf . estos se agregaran dentro del documento
 
@@ -268,7 +273,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzcxNTY3NiwtMTUzNjM3NDUwNCwtMT
+eyJoaXN0b3J5IjpbMTY5OTg3NTU4MywtMTUzNjM3NDUwNCwtMT
 M3MTcyNTAwMSwtMTg3NDc0NzUwNSwtMTk5NDQ1Nzg5MiwtMjAw
 NTY1MDUzMywyODc3MjE3MjQsLTIwMjk0ODYxODAsMzI0OTE1Nz
 AwLC0xMDUyNTI3MTgyLC03Njg1ODA5NjEsMTMyMjgwMjMxNiwx
