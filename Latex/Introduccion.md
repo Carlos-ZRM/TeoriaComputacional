@@ -283,6 +283,7 @@ También es importante indicarle a Latext el tipo de bibliografía o forma de ci
 ```
  Ejemplos de documentos en BoibText
  ```
+ %%% Articulo
  @article
 {   adamanstky2013-OnCreativity,
     Title = {On Creativity of Elementary Cellular Automata},
@@ -292,6 +293,8 @@ También es importante indicarle a Latext el tipo de bibliografía o forma de ci
     Number = {4},
     Year = {2013}    
 }
+
+%%% Libro
 @book
 {
 McIntosh2009-OneDimensionalCA,
@@ -301,7 +304,28 @@ Publisher = {Luniver Press },
 Year = {2009}
 }
 
+%%% Tesis de doctorado
+@phdthesis
+{
+    Seck2002-Phd-AnalisisTopo,
+	Author = {J. Seck Tuoh},
+	Title = {Análisis dinámico y topológico de los autómatas celulares unidimensionales reversibles},
+	school ={Centro de Investigación y de Estudios Avanzados del IPN}, 
+  year =         {2002}
+	}	
+	
+	
+%%% URL
+@misc{
+    Feldman-scallingFractales,
+	Author = {D. Feldman},
+	Title = {Exploring the Sierpi{\'n}ski triangle},
+	note = {Last accessed 4 May 2019},
+	url = {https://www.youtube.com/watch?v=4I-mvjYtl2k}
+	}
  ```
+
+La forma que tenemos para
  
 # Paquetes comunes
 
@@ -320,7 +344,7 @@ Year = {2009}
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTg3MjYzMywtNjgyODU0MjQsLTE1Mz
+eyJoaXN0b3J5IjpbMTMwNzY2MjQ0MSwtNjgyODU0MjQsLTE1Mz
 YzNzQ1MDQsLTEzNzE3MjUwMDEsLTE4NzQ3NDc1MDUsLTE5OTQ0
 NTc4OTIsLTIwMDU2NTA1MzMsMjg3NzIxNzI0LC0yMDI5NDg2MT
 gwLDMyNDkxNTcwMCwtMTA1MjUyNzE4MiwtNzY4NTgwOTYxLDEz
