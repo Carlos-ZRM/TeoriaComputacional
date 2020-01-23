@@ -36,9 +36,11 @@ Estas instrucciones inician con el símbolo ```\instrucción``` o pueden iniciar
 ```
 
 ### Preambulo
-La primera instrucción indica la clase del documento que el motor crea
+La primera instrucción indica la clase del documento que el motor creará 
+
 
 En el preambulo se suelen indicar los paquetes que se usaran dentro del documento. Así como instrucciones que nos permiten darle formato al documento. 
+
 
 \usepackage{packages}
 
@@ -123,7 +125,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTc2NDU5LC04MjY2MTYzMTEsLTE5NT
-g4NDMyNjQsLTEyNTE2Njk2MDAsOTEzMjQ3OCw0NDAxNjA1MTEs
-NTY0Nzk4MTA1XX0=
+eyJoaXN0b3J5IjpbMTE1MTUyODY1MCwtODI2NjE2MzExLC0xOT
+U4ODQzMjY0LC0xMjUxNjY5NjAwLDkxMzI0NzgsNDQwMTYwNTEx
+LDU2NDc5ODEwNV19
 -->
