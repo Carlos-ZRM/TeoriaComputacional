@@ -345,11 +345,13 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
 \usepackage{appendix}
 - \usepackage[spanish]{babel}
 	El paquete Babel permite utilizar caracteres especiales y también traduce algunos elementos dentro del documento. También activa automáticamente las reglas de separación de sílabas apropiadas para el idioma que elija.
+- \usepackage{float}
 
 - \package{geometry}
  ![Layout-dimensions.png](https://sharelatex-wiki-cdn-671420.c.cdn77.org/learn-scripts/images/f/fc/Layout-dimensions.png)
 
-
+- \usepackage{hyperref}
+- \usepackage{import}
 	
  - \usepackage[utf8]{inputenc}
   Con esta instrucción se le indica a látex que codificación debe utilizar. Se agrega utf8 para añadir acentos.
@@ -359,11 +361,14 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
 
 - \usepackage{mathtools}
 
-	
+- \usepackage{setspace}
+- \usepackage{subfig}
+- \usepackage{svg}
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTc4Nzc0MTMsMTkxNzg5MjYzNCwtNj
+eyJoaXN0b3J5IjpbLTE4OTA1NTk3NjUsMTkxNzg5MjYzNCwtNj
 gyODU0MjQsLTE1MzYzNzQ1MDQsLTEzNzE3MjUwMDEsLTE4NzQ3
 NDc1MDUsLTE5OTQ0NTc4OTIsLTIwMDU2NTA1MzMsMjg3NzIxNz
 I0LC0yMDI5NDg2MTgwLDMyNDkxNTcwMCwtMTA1MjUyNzE4Miwt
