@@ -194,9 +194,14 @@ Como hemos visto **table** y **figure** , así que podemos utilizar tabular para
         \end{figure}
 ```
 ##### Listas de contenido 
-  También latex nos permite crear listas de figuras y
+  También latex nos permite crear listas de figuras y contenido. 
+  ```
   \listoffigures
+  \clearpage
+  
   \listoftables
+  \clearpage
+  ```
 ### Código
 Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones para agregar el código: dentro del documento .tex o  desde un archivo. 
 
@@ -230,11 +235,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNjM3NzI4OSwtMjAyOTQ4NjE4MCwzMj
-Q5MTU3MDAsLTEwNTI1MjcxODIsLTc2ODU4MDk2MSwxMzIyODAy
-MzE2LDE1MjgzNzAyMzAsLTEyMzAwODc5NTUsMTM0NjE3MjA3Mi
-wxODQyOTMyNjkyLC0yMDEzNzM1NTEzLC0xMTI0MTMyODkwLDE3
-ODYxNzcwODMsMjA3OTc2MDkxOSwxNjg0NjYzMDQ1LC0zOTczNj
-AzNDMsMTAwMzQ2Mjk2MywxMjc3MDQ2NTY1LDEzOTg4NTg0MDks
-LTE3MDk1NzgzNF19
+eyJoaXN0b3J5IjpbMjg3NzIxNzI0LC0yMDI5NDg2MTgwLDMyND
+kxNTcwMCwtMTA1MjUyNzE4MiwtNzY4NTgwOTYxLDEzMjI4MDIz
+MTYsMTUyODM3MDIzMCwtMTIzMDA4Nzk1NSwxMzQ2MTcyMDcyLD
+E4NDI5MzI2OTIsLTIwMTM3MzU1MTMsLTExMjQxMzI4OTAsMTc4
+NjE3NzA4MywyMDc5NzYwOTE5LDE2ODQ2NjMwNDUsLTM5NzM2MD
+M0MywxMDAzNDYyOTYzLDEyNzcwNDY1NjUsMTM5ODg1ODQwOSwt
+MTcwOTU3ODM0XX0=
 -->
