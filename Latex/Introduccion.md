@@ -133,9 +133,13 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 \lstinputlisting[language=Python, caption= Ejemplo de Hola mundo en Python ]{holaMundo.py}
 ```
  
+# Paquetes comunes
+
+\package
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NzA0NjU2NSwxMzk4ODU4NDA5LC0xNz
-A5NTc4MzQsLTgyNjYxNjMxMSwtMTk1ODg0MzI2NCwtMTI1MTY2
-OTYwMCw5MTMyNDc4LDQ0MDE2MDUxMSw1NjQ3OTgxMDVdfQ==
+eyJoaXN0b3J5IjpbMTcyMjMzNjE0LDEyNzcwNDY1NjUsMTM5OD
+g1ODQwOSwtMTcwOTU3ODM0LC04MjY2MTYzMTEsLTE5NTg4NDMy
+NjQsLTEyNTE2Njk2MDAsOTEzMjQ3OCw0NDAxNjA1MTEsNTY0Nz
+k4MTA1XX0=
 -->
