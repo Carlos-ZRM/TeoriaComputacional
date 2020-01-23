@@ -132,19 +132,7 @@ Podemos indicar el elemento grafico para crear listas, pero normalmente utilizam
 \end{enumerate}
 ```
 #### Figuras
-Se pueden agregar las imágenes dentro de la sentencia **figure** este objeto nos permite agregar imágenes, posicionarlos dentro del documento, agregar títulos y referencias .
-```
-\begin{figure}[h]
-    % Alineacion 
-    \centering
-    % Se agrega el contenido 
-    \includegraphics{universe}
-    % Pie de imagen
-    \caption{Subtitulo}
-    % Label para hacer referencias dentro del texto
-    \label{label}
-\end{figure}
-
+Podemos agregar las imágenes de forma simple 
 ``` 
 
 % Agregar a la sección de preambulo
@@ -156,6 +144,21 @@ Se pueden agregar las imágenes dentro de la sentencia **figure** este objeto no
 % Dentro de la sentencia figure o del documento
 \includegraphics{imagen}
 ```
+
+También podemos agregar las imágenes dentro de la sentencia **figure** este objeto nos permite agregar imágenes, posicionarlos dentro del documento, agregar títulos y referencias .
+```
+\begin{figure}[h]
+    % Alineacion 
+    \centering
+    % Se agrega el contenido 
+    \includegraphics{universe}
+    % Pie de imagen
+    \caption{Texto dentro de la imagen}
+    % Label para hacer referencias dentro del texto
+    \label{label}
+\end{figure}
+```
+
 ### Código
 Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones para agregar el código: dentro del documento .tex o  desde un archivo. 
 
@@ -189,7 +192,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDE4NDIxNiwxMzIyODAyMzE2LDE1Mj
+eyJoaXN0b3J5IjpbLTc2ODU4MDk2MSwxMzIyODAyMzE2LDE1Mj
 gzNzAyMzAsLTEyMzAwODc5NTUsMTM0NjE3MjA3MiwxODQyOTMy
 NjkyLC0yMDEzNzM1NTEzLC0xMTI0MTMyODkwLDE3ODYxNzcwOD
 MsMjA3OTc2MDkxOSwxNjg0NjYzMDQ1LC0zOTczNjAzNDMsMTAw
