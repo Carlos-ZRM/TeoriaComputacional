@@ -176,6 +176,7 @@ Al igual que las figuras las tablas pueden pueden
     \label{tab:my_label}
 \end{table}
 ```
+Como hemos visto **table** y **figure** son muy parecidos, 
 ### Código
 Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones para agregar el código: dentro del documento .tex o  desde un archivo. 
 
@@ -209,11 +210,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI0OTE1NzAwLC0xMDUyNTI3MTgyLC03Nj
-g1ODA5NjEsMTMyMjgwMjMxNiwxNTI4MzcwMjMwLC0xMjMwMDg3
-OTU1LDEzNDYxNzIwNzIsMTg0MjkzMjY5MiwtMjAxMzczNTUxMy
-wtMTEyNDEzMjg5MCwxNzg2MTc3MDgzLDIwNzk3NjA5MTksMTY4
-NDY2MzA0NSwtMzk3MzYwMzQzLDEwMDM0NjI5NjMsMTI3NzA0Nj
-U2NSwxMzk4ODU4NDA5LC0xNzA5NTc4MzQsLTgyNjYxNjMxMSwt
-MTk1ODg0MzI2NF19
+eyJoaXN0b3J5IjpbLTc1MTcyOTkyMSwzMjQ5MTU3MDAsLTEwNT
+I1MjcxODIsLTc2ODU4MDk2MSwxMzIyODAyMzE2LDE1MjgzNzAy
+MzAsLTEyMzAwODc5NTUsMTM0NjE3MjA3MiwxODQyOTMyNjkyLC
+0yMDEzNzM1NTEzLC0xMTI0MTMyODkwLDE3ODYxNzcwODMsMjA3
+OTc2MDkxOSwxNjg0NjYzMDQ1LC0zOTczNjAzNDMsMTAwMzQ2Mj
+k2MywxMjc3MDQ2NTY1LDEzOTg4NTg0MDksLTE3MDk1NzgzNCwt
+ODI2NjE2MzExXX0=
 -->
