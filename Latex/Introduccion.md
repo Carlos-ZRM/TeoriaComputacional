@@ -47,6 +47,7 @@ La primera instrucción indica la clase del documento que el motor creará
 | **book** | Para libros y otros documentos más largos que deben incluir capítulos, prólogo, apéndices o incluso partes. |
 | **report** | Para informes técnicos. Es similar a la clase  `book`. |
 | **beamer** | Otra clase para presentaciones mediante diapositivas. |
+
 En el preambulo se suelen indicar los paquetes que se usaran dentro del documento. Así como instrucciones que nos permiten darle formato al documento.  | 
 ```
 \documentclass{aticle}
@@ -147,8 +148,9 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDY2MzA0NSwtMzk3MzYwMzQzLDEwMD
-M0NjI5NjMsMTI3NzA0NjU2NSwxMzk4ODU4NDA5LC0xNzA5NTc4
-MzQsLTgyNjYxNjMxMSwtMTk1ODg0MzI2NCwtMTI1MTY2OTYwMC
-w5MTMyNDc4LDQ0MDE2MDUxMSw1NjQ3OTgxMDVdfQ==
+eyJoaXN0b3J5IjpbMjA3OTc2MDkxOSwxNjg0NjYzMDQ1LC0zOT
+czNjAzNDMsMTAwMzQ2Mjk2MywxMjc3MDQ2NTY1LDEzOTg4NTg0
+MDksLTE3MDk1NzgzNCwtODI2NjE2MzExLC0xOTU4ODQzMjY0LC
+0xMjUxNjY5NjAwLDkxMzI0NzgsNDQwMTYwNTExLDU2NDc5ODEw
+NV19
 -->
