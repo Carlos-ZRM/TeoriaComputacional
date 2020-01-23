@@ -195,8 +195,10 @@ Al igual que las figuras las tablas pueden tener titulo, alineación, referencia
 
 Como hemos visto **table** y **figure** son muy parecidos
 Podemos controlar la forma en que se posicionara en el texto 
-| 
-h Coloque el flotador aquí, es decir, aproximadamente en el mismo punto en que aparece en el texto fuente (sin embargo, no exactamente en el lugar)
+
+| identificador | Descripción |
+|----------------|------------|
+|h |Coloque el flotador aquí, es decir, aproximadamente en el mismo punto en que aparece en el texto fuente (sin embargo, no exactamente en el lugar)
 t Posición en la parte superior de la página.
 b Posición al final de la página.
 p Poner en una página especial solo para carrozas.
@@ -268,11 +270,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzkxMTY4ODQsLTE1MzYzNzQ1MDQsLT
-EzNzE3MjUwMDEsLTE4NzQ3NDc1MDUsLTE5OTQ0NTc4OTIsLTIw
-MDU2NTA1MzMsMjg3NzIxNzI0LC0yMDI5NDg2MTgwLDMyNDkxNT
-cwMCwtMTA1MjUyNzE4MiwtNzY4NTgwOTYxLDEzMjI4MDIzMTYs
-MTUyODM3MDIzMCwtMTIzMDA4Nzk1NSwxMzQ2MTcyMDcyLDE4ND
-I5MzI2OTIsLTIwMTM3MzU1MTMsLTExMjQxMzI4OTAsMTc4NjE3
-NzA4MywyMDc5NzYwOTE5XX0=
+eyJoaXN0b3J5IjpbLTYyNDE4ODM3NCwtMTUzNjM3NDUwNCwtMT
+M3MTcyNTAwMSwtMTg3NDc0NzUwNSwtMTk5NDQ1Nzg5MiwtMjAw
+NTY1MDUzMywyODc3MjE3MjQsLTIwMjk0ODYxODAsMzI0OTE1Nz
+AwLC0xMDUyNTI3MTgyLC03Njg1ODA5NjEsMTMyMjgwMjMxNiwx
+NTI4MzcwMjMwLC0xMjMwMDg3OTU1LDEzNDYxNzIwNzIsMTg0Mj
+kzMjY5MiwtMjAxMzczNTUxMywtMTEyNDEzMjg5MCwxNzg2MTc3
+MDgzLDIwNzk3NjA5MTldfQ==
 -->
