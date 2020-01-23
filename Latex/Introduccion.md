@@ -174,7 +174,10 @@ También podemos agregar las imágenes dentro de la sentencia **figure** este ob
 #### Tablas
 
 Al igual que las figuras las tablas pueden tener titulo, alineación, referencias. Se utilizara el comando tabular para  crear las filas y columnas.  
-Dentro de los corchetes de tabular se define el número de columnas mediante letras. cada letra es una columna y representa la justificación del texto dentro de la tabla **l,c,r**.  Con | se ag 
+Dentro de los corchetes de tabular se define el número de columnas mediante letras. cada letra es una columna y representa la justificación del texto dentro de la tabla **l,c,r**.  Con | se agregan lineas para separar columnas.
+
+Para agregar filas
+``\hline``  
 
 ```
 \begin{table}[h]
@@ -248,7 +251,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTEyNjczOCwtMTg3NDc0NzUwNSwtMT
+eyJoaXN0b3J5IjpbLTQ0OTcwNzM0NywtMTg3NDc0NzUwNSwtMT
 k5NDQ1Nzg5MiwtMjAwNTY1MDUzMywyODc3MjE3MjQsLTIwMjk0
 ODYxODAsMzI0OTE1NzAwLC0xMDUyNTI3MTgyLC03Njg1ODA5Nj
 EsMTMyMjgwMjMxNiwxNTI4MzcwMjMwLC0xMjMwMDg3OTU1LDEz
