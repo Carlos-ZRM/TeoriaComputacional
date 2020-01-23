@@ -277,6 +277,52 @@ begin{equation*}
 
 ```
 
+## Compiladores y aplicaciones
+
+## Estructura de un documento
+LatTex funciona mediante instrucciones. Las instrucciones pertenecen a algún paquete de Latex y algunas instrucciones pueden recibir parámetros. 
+Estas instrucciones inician con el símbolo ```\instrucción``` o pueden iniciar con las sentencias: 
+```
+\begin{instrucción}[parametros]
+	...
+\end{instrucción}
+```
+
+### Preambulo
+
+#### \documentclass
+
+#### \usepackage
+- \usepackage{listings}
+	Paquete que permite la inserción de código dentro del texto. Este paquete tiene formato para varios lenguajes de programación y el estilo puede personalizarse 
+#### información del documento
+- \title{PlantillaTeoria}
+- \author{Carlos - ZRM }
+- \date{Enero 2020}
+### Cuerpo
+Los documentos se inician y cierran entre las instrucciones 
+```
+\begin{document}
+	...
+\end{document}
+```
+
+
+
+### Figuras y tablas
+#### Figuras
+Se pueden agregar las imágenes dentro de la sentencia figure .
+
+``` 
+% Agregar a la sección de preambulo
+\usepackage{graphicx}
+
+% Agrega un directorio de imagenes
+\graphicspath{ {./images/} }
+
+% Dentro de la sentencia figure o del documento
+\includegraphics{imagen}
+```
 ### Código
 Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones para agregar el código: dentro del documento .tex o  desde un archivo. 
 
@@ -284,8 +330,10 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  
 ```
 \begin{lstlisting}[language=Python, caption= Ejemplo de Hola mundo en Python] 
+
 	def HolaMundo():
 		print("Hola Mundo")
+		
 \end{lstlisting}
  ```
  - Código agregado desde archivo
@@ -391,14 +439,14 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
 - \usepackage{subfig}
 - \usepackage{svg}
 
-
+ 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE1Njc2ODk4LC0yMTI3NDQyMTI4LC02Nz
-YwNzk2OSwxOTE3ODkyNjM0LC02ODI4NTQyNCwtMTUzNjM3NDUw
-NCwtMTM3MTcyNTAwMSwtMTg3NDc0NzUwNSwtMTk5NDQ1Nzg5Mi
-wtMjAwNTY1MDUzMywyODc3MjE3MjQsLTIwMjk0ODYxODAsMzI0
-OTE1NzAwLC0xMDUyNTI3MTgyLC03Njg1ODA5NjEsMTMyMjgwMj
-MxNiwxNTI4MzcwMjMwLC0xMjMwMDg3OTU1LDEzNDYxNzIwNzIs
-MTg0MjkzMjY5Ml19
+eyJoaXN0b3J5IjpbLTU0Njc4MDg4Nyw0MTU2NzY4OTgsLTIxMj
+c0NDIxMjgsLTY3NjA3OTY5LDE5MTc4OTI2MzQsLTY4Mjg1NDI0
+LC0xNTM2Mzc0NTA0LC0xMzcxNzI1MDAxLC0xODc0NzQ3NTA1LC
+0xOTk0NDU3ODkyLC0yMDA1NjUwNTMzLDI4NzcyMTcyNCwtMjAy
+OTQ4NjE4MCwzMjQ5MTU3MDAsLTEwNTI1MjcxODIsLTc2ODU4MD
+k2MSwxMzIyODAyMzE2LDE1MjgzNzAyMzAsLTEyMzAwODc5NTUs
+MTM0NjE3MjA3Ml19
 -->
