@@ -36,7 +36,8 @@ Estas instrucciones inician con el símbolo ```\instrucción``` o pueden iniciar
 ```
 
 ### Preambulo
-En el preambulo se suelen de los paquetes 
+En el preambulo se suelen indicar los paquetes que se usaran dentro del documento. Así como instrucciones que nos permiten darle formato al documento. 
+
 #### \documentclass
 
 #### \usepackage
@@ -118,7 +119,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNDgzNTQ0NiwtODI2NjE2MzExLC0xOT
-U4ODQzMjY0LC0xMjUxNjY5NjAwLDkxMzI0NzgsNDQwMTYwNTEx
-LDU2NDc5ODEwNV19
+eyJoaXN0b3J5IjpbNTI0NjE0MzQxLC04MjY2MTYzMTEsLTE5NT
+g4NDMyNjQsLTEyNTE2Njk2MDAsOTEzMjQ3OCw0NDAxNjA1MTEs
+NTY0Nzk4MTA1XX0=
 -->
