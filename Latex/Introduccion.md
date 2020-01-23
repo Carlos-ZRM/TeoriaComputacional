@@ -146,7 +146,7 @@ Podemos agregar las imágenes de forma simple
 
 Ademas podemos modificar el tamaño de la imagen por ejemplo :
 ```
-
+\includegraphics[scale =.15, angle=90]{img/rule90.png}
 ```
 También podemos agregar las imágenes dentro de la sentencia **figure** este objeto nos permite agregar imágenes, posicionarlos dentro del documento, agregar títulos y referencias .
 ```
@@ -235,11 +235,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg3NzIxNzI0LC0yMDI5NDg2MTgwLDMyND
-kxNTcwMCwtMTA1MjUyNzE4MiwtNzY4NTgwOTYxLDEzMjI4MDIz
-MTYsMTUyODM3MDIzMCwtMTIzMDA4Nzk1NSwxMzQ2MTcyMDcyLD
-E4NDI5MzI2OTIsLTIwMTM3MzU1MTMsLTExMjQxMzI4OTAsMTc4
-NjE3NzA4MywyMDc5NzYwOTE5LDE2ODQ2NjMwNDUsLTM5NzM2MD
-M0MywxMDAzNDYyOTYzLDEyNzcwNDY1NjUsMTM5ODg1ODQwOSwt
-MTcwOTU3ODM0XX0=
+eyJoaXN0b3J5IjpbLTIwMDU2NTA1MzMsMjg3NzIxNzI0LC0yMD
+I5NDg2MTgwLDMyNDkxNTcwMCwtMTA1MjUyNzE4MiwtNzY4NTgw
+OTYxLDEzMjI4MDIzMTYsMTUyODM3MDIzMCwtMTIzMDA4Nzk1NS
+wxMzQ2MTcyMDcyLDE4NDI5MzI2OTIsLTIwMTM3MzU1MTMsLTEx
+MjQxMzI4OTAsMTc4NjE3NzA4MywyMDc5NzYwOTE5LDE2ODQ2Nj
+MwNDUsLTM5NzM2MDM0MywxMDAzNDYyOTYzLDEyNzcwNDY1NjUs
+MTM5ODg1ODQwOV19
 -->
