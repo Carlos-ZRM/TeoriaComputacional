@@ -204,6 +204,10 @@ También podemos agregar las imágenes dentro de la sentencia **figure** este ob
 ```
 #### Tablas
 
+
+[Tablas en línea ]: https://www.tablesgenerator.com
+
+
 Al igual que las figuras las tablas pueden tener titulo, alineación, referencias. Se utilizara el comando tabular para  crear las filas y columnas.  
 
 - Dentro de los corchetes de tabular se define el número de columnas mediante letras. cada letra es una columna y representa la justificación del texto dentro de la tabla **l,c,r**.  Con | se agregan lineas para separar columnas.
@@ -443,7 +447,7 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MTQyNTcyMyw0MTU2NzY4OTgsLTIxMj
+eyJoaXN0b3J5IjpbMTE2NjY0MjE0OSw0MTU2NzY4OTgsLTIxMj
 c0NDIxMjgsLTY3NjA3OTY5LDE5MTc4OTI2MzQsLTY4Mjg1NDI0
 LC0xNTM2Mzc0NTA0LC0xMzcxNzI1MDAxLC0xODc0NzQ3NTA1LC
 0xOTk0NDU3ODkyLC0yMDA1NjUwNTMzLDI4NzcyMTcyNCwtMjAy
