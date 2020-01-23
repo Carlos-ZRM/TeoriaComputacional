@@ -201,7 +201,7 @@ Podemos controlar la forma en que se posicionara en el texto
 |h |Coloque el flotador aquí, es decir, aproximadamente en el mismo punto en que aparece en el texto fuente (sin embargo, no exactamente en el lugar) |
 |t | Posición en la parte superior de la página. |
 |b | Posición al final de la página. |
-| H | Coloca el objeto exactamente en la ubicación del código LaTeX. Requiere el paquete flotante, ``\usepackage {float}``
+| H | Coloca el objeto exactamente en la ubicación del código LaTeX. Requiere el paquete flotante, ``\usepackage{float}``
 
 Ademas podemos utilizar tabular para para ordenar las imágenes dentro de la figura a modo de tablas
 
@@ -268,7 +268,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1ODkyODQ4MCwtMTUzNjM3NDUwNCwtMT
+eyJoaXN0b3J5IjpbMTk0NzcxNTY3NiwtMTUzNjM3NDUwNCwtMT
 M3MTcyNTAwMSwtMTg3NDc0NzUwNSwtMTk5NDQ1Nzg5MiwtMjAw
 NTY1MDUzMywyODc3MjE3MjQsLTIwMjk0ODYxODAsMzI0OTE1Nz
 AwLC0xMDUyNTI3MTgyLC03Njg1ODA5NjEsMTMyMjgwMjMxNiwx
