@@ -42,6 +42,11 @@ La primera instrucción indica la clase del documento que el motor creará
 
 En el preambulo se suelen indicar los paquetes que se usaran dentro del documento. Así como instrucciones que nos permiten darle formato al documento. 
 ```
+\documentclass{aticle
+% se indica el paquete que puede 
+\usepackage{geometry}
+
+\geometry{legalpaper, landscape, margin=2in}
 
 ```
 
@@ -128,7 +133,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDk1NzgzNCwtODI2NjE2MzExLC0xOT
-U4ODQzMjY0LC0xMjUxNjY5NjAwLDkxMzI0NzgsNDQwMTYwNTEx
-LDU2NDc5ODEwNV19
+eyJoaXN0b3J5IjpbLTEyMTQ5NTQ2OTAsLTE3MDk1NzgzNCwtOD
+I2NjE2MzExLC0xOTU4ODQzMjY0LC0xMjUxNjY5NjAwLDkxMzI0
+NzgsNDQwMTYwNTExLDU2NDc5ODEwNV19
 -->
