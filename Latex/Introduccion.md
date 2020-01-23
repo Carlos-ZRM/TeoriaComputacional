@@ -41,6 +41,8 @@ La primera instrucción indica la clase del documento que el motor creará
 ```\documentclass{aticle}```
 #### Diferentes tipos de clases
 
+| Clase | Resumen |
+--------| --------|
 |**article** | Para artículos académicos y otros documentos cortos que no es necesario dividir en capítulos, sino que bastan las secciones y subsecciones y sus párrafos y subpárrafos.
 
 **book**
@@ -158,8 +160,8 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NzM2MDM0MywxMDAzNDYyOTYzLDEyNz
-cwNDY1NjUsMTM5ODg1ODQwOSwtMTcwOTU3ODM0LC04MjY2MTYz
-MTEsLTE5NTg4NDMyNjQsLTEyNTE2Njk2MDAsOTEzMjQ3OCw0ND
-AxNjA1MTEsNTY0Nzk4MTA1XX0=
+eyJoaXN0b3J5IjpbLTEyNTQ3NjY2NDAsLTM5NzM2MDM0MywxMD
+AzNDYyOTYzLDEyNzcwNDY1NjUsMTM5ODg1ODQwOSwtMTcwOTU3
+ODM0LC04MjY2MTYzMTEsLTE5NTg4NDMyNjQsLTEyNTE2Njk2MD
+AsOTEzMjQ3OCw0NDAxNjA1MTEsNTY0Nzk4MTA1XX0=
 -->
