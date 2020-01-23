@@ -74,6 +74,8 @@ El archivo packages.sty debe lucir así
 \usepackage[utf8]{inputenc}
 \usepackage[spanish, activeacute]{babel}
 
+% configuracion 
+\marginsize{3cm}{2cm}{2cm}{2cm}
 
 ```
 #### información del documento
@@ -338,12 +340,13 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
 ```\cite{Seck2002-Phd-AnalisisTopo}```
  
 # Paquetes comunes
-
+- \usepackage[spanish]{babel}
+	El paquete Babel permite utilizar caracteres especiales y también traduce algunos elementos dentro del documento. También activa automáticamente las reglas de separación de sílabas apropiadas para el idioma que elija.
+	
 - \package{geometry}
  ![Layout-dimensions.png](https://sharelatex-wiki-cdn-671420.c.cdn77.org/learn-scripts/images/f/fc/Layout-dimensions.png)
 
-- \usepackage[spanish]{babel}
-	El paquete Babel permite utilizar caracteres especiales y también traduce algunos elementos dentro del documento. También activa automáticamente las reglas de separación de sílabas apropiadas para el idioma que elija.
+
 	
  - \usepackage[utf8]{inputenc}
   Con esta instrucción se le indica a látex que codificación debe utilizar. Se agrega utf8 para añadir acentos.
@@ -354,7 +357,7 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTg0NjQ0OCwxOTE3ODkyNjM0LC02OD
+eyJoaXN0b3J5IjpbMTM1NDkxNjYzOCwxOTE3ODkyNjM0LC02OD
 I4NTQyNCwtMTUzNjM3NDUwNCwtMTM3MTcyNTAwMSwtMTg3NDc0
 NzUwNSwtMTk5NDQ1Nzg5MiwtMjAwNTY1MDUzMywyODc3MjE3Mj
 QsLTIwMjk0ODYxODAsMzI0OTE1NzAwLC0xMDUyNTI3MTgyLC03
