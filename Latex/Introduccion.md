@@ -67,6 +67,15 @@ También es posible escribir los paquetes en un archivo terminacion **.sty** e i
 \usepackage{packages}
 ```
 
+El archivo packages.sty debe lucir así 
+```
+\ProvidesPackage{packages}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, activeacute]{babel}
+
+
+```
 #### información del documento
 - \title{PlantillaTeoria}
 - \author{Carlos - ZRM }
@@ -345,11 +354,11 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNzg5MjYzNCwtNjgyODU0MjQsLTE1Mz
-YzNzQ1MDQsLTEzNzE3MjUwMDEsLTE4NzQ3NDc1MDUsLTE5OTQ0
-NTc4OTIsLTIwMDU2NTA1MzMsMjg3NzIxNzI0LC0yMDI5NDg2MT
-gwLDMyNDkxNTcwMCwtMTA1MjUyNzE4MiwtNzY4NTgwOTYxLDEz
-MjI4MDIzMTYsMTUyODM3MDIzMCwtMTIzMDA4Nzk1NSwxMzQ2MT
-cyMDcyLDE4NDI5MzI2OTIsLTIwMTM3MzU1MTMsLTExMjQxMzI4
-OTAsMTc4NjE3NzA4M119
+eyJoaXN0b3J5IjpbLTY1OTg0NjQ0OCwxOTE3ODkyNjM0LC02OD
+I4NTQyNCwtMTUzNjM3NDUwNCwtMTM3MTcyNTAwMSwtMTg3NDc0
+NzUwNSwtMTk5NDQ1Nzg5MiwtMjAwNTY1MDUzMywyODc3MjE3Mj
+QsLTIwMjk0ODYxODAsMzI0OTE1NzAwLC0xMDUyNTI3MTgyLC03
+Njg1ODA5NjEsMTMyMjgwMjMxNiwxNTI4MzcwMjMwLC0xMjMwMD
+g3OTU1LDEzNDYxNzIwNzIsMTg0MjkzMjY5MiwtMjAxMzczNTUx
+MywtMTEyNDEzMjg5MF19
 -->
