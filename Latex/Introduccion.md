@@ -343,10 +343,10 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
 - \usepackage{amssymb,amsmath,amsthm}
 - \usepackage{anysize}
 \usepackage{appendix}
+- \usepackage{array,longtable}
 - \usepackage[spanish]{babel}
 	El paquete Babel permite utilizar caracteres especiales y también traduce algunos elementos dentro del documento. También activa automáticamente las reglas de separación de sílabas apropiadas para el idioma que elija.
 - \usepackage{colortbl}
-
 - \usepackage{float}
 
 - \package{geometry}
@@ -357,7 +357,6 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
  letterpaper,
  landscape,
  twoside,
- %total={170mm,257mm},
  left=10mm,
  right =10mm,
  top=15mm
@@ -373,6 +372,7 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
 	Paquete que permite la inserción de código dentro del texto. Este paquete tiene formato para varios lenguajes de programación y el estilo puede personalizarse 
 
 - \usepackage{mathtools}
+- \usepackage{multirow, array} % para las tablas
 
 - \usepackage{setspace}
 - \usepackage{subfig}
@@ -381,11 +381,11 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDYyMTExNCwxOTE3ODkyNjM0LC02OD
-I4NTQyNCwtMTUzNjM3NDUwNCwtMTM3MTcyNTAwMSwtMTg3NDc0
-NzUwNSwtMTk5NDQ1Nzg5MiwtMjAwNTY1MDUzMywyODc3MjE3Mj
-QsLTIwMjk0ODYxODAsMzI0OTE1NzAwLC0xMDUyNTI3MTgyLC03
-Njg1ODA5NjEsMTMyMjgwMjMxNiwxNTI4MzcwMjMwLC0xMjMwMD
-g3OTU1LDEzNDYxNzIwNzIsMTg0MjkzMjY5MiwtMjAxMzczNTUx
-MywtMTEyNDEzMjg5MF19
+eyJoaXN0b3J5IjpbOTQ2MDQ3MjY1LDE5MTc4OTI2MzQsLTY4Mj
+g1NDI0LC0xNTM2Mzc0NTA0LC0xMzcxNzI1MDAxLC0xODc0NzQ3
+NTA1LC0xOTk0NDU3ODkyLC0yMDA1NjUwNTMzLDI4NzcyMTcyNC
+wtMjAyOTQ4NjE4MCwzMjQ5MTU3MDAsLTEwNTI1MjcxODIsLTc2
+ODU4MDk2MSwxMzIyODAyMzE2LDE1MjgzNzAyMzAsLTEyMzAwOD
+c5NTUsMTM0NjE3MjA3MiwxODQyOTMyNjkyLC0yMDEzNzM1NTEz
+LC0xMTI0MTMyODkwXX0=
 -->
