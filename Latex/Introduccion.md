@@ -110,6 +110,7 @@ En cuanto al tamano de la letra este puede definrse al inicio del documento, med
 		- \LARGE 
 		- \huge 
 		- \Huge
+		
 	- Al modificar el tamanio de letra en la clase del documento se modifica \normalsize por lo que todas las demas sentencias tambien lo hacen
 	- El tamanio de la letra por default varia dependiendo del tipo de documento
 	- Al utilizar un comando modifica el tamanio del resto del documento hasta que termine o hasta que otra sentencia lo modifique
@@ -172,7 +173,7 @@ También podemos agregar las imágenes dentro de la sentencia **figure** este ob
 ```
 #### Tablas
 
-Al igual que las figuras las tablas pueden pueden 
+Al igual que las figuras las tablas pueden tener titulo, alineación, referencias. Se utilizara el comando tabular para most 
 ```
 \begin{table}[h]
     \centering
@@ -244,11 +245,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQ0NTc4OTIsLTIwMDU2NTA1MzMsMj
-g3NzIxNzI0LC0yMDI5NDg2MTgwLDMyNDkxNTcwMCwtMTA1MjUy
-NzE4MiwtNzY4NTgwOTYxLDEzMjI4MDIzMTYsMTUyODM3MDIzMC
-wtMTIzMDA4Nzk1NSwxMzQ2MTcyMDcyLDE4NDI5MzI2OTIsLTIw
-MTM3MzU1MTMsLTExMjQxMzI4OTAsMTc4NjE3NzA4MywyMDc5Nz
-YwOTE5LDE2ODQ2NjMwNDUsLTM5NzM2MDM0MywxMDAzNDYyOTYz
-LDEyNzcwNDY1NjVdfQ==
+eyJoaXN0b3J5IjpbLTc1MTQ4MDE1NSwtMTk5NDQ1Nzg5MiwtMj
+AwNTY1MDUzMywyODc3MjE3MjQsLTIwMjk0ODYxODAsMzI0OTE1
+NzAwLC0xMDUyNTI3MTgyLC03Njg1ODA5NjEsMTMyMjgwMjMxNi
+wxNTI4MzcwMjMwLC0xMjMwMDg3OTU1LDEzNDYxNzIwNzIsMTg0
+MjkzMjY5MiwtMjAxMzczNTUxMywtMTEyNDEzMjg5MCwxNzg2MT
+c3MDgzLDIwNzk3NjA5MTksMTY4NDY2MzA0NSwtMzk3MzYwMzQz
+LDEwMDM0NjI5NjNdfQ==
 -->
