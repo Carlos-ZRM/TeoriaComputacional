@@ -82,7 +82,7 @@ Los documentos se inician y cierran entre las instrucciones
 Se pueden importar diferentes documentos como .tex .pdf . estos se agregaran dentro del documento
 
 ``\input{filename.tex}``
-
+y también es posible agregar PATH
 
  
 #### Texto
@@ -154,10 +154,10 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTM3MzU1MTMsLTExMjQxMzI4OTAsMT
-c4NjE3NzA4MywyMDc5NzYwOTE5LDE2ODQ2NjMwNDUsLTM5NzM2
-MDM0MywxMDAzNDYyOTYzLDEyNzcwNDY1NjUsMTM5ODg1ODQwOS
-wtMTcwOTU3ODM0LC04MjY2MTYzMTEsLTE5NTg4NDMyNjQsLTEy
-NTE2Njk2MDAsOTEzMjQ3OCw0NDAxNjA1MTEsNTY0Nzk4MTA1XX
-0=
+eyJoaXN0b3J5IjpbMTg0MjkzMjY5MiwtMjAxMzczNTUxMywtMT
+EyNDEzMjg5MCwxNzg2MTc3MDgzLDIwNzk3NjA5MTksMTY4NDY2
+MzA0NSwtMzk3MzYwMzQzLDEwMDM0NjI5NjMsMTI3NzA0NjU2NS
+wxMzk4ODU4NDA5LC0xNzA5NTc4MzQsLTgyNjYxNjMxMSwtMTk1
+ODg0MzI2NCwtMTI1MTY2OTYwMCw5MTMyNDc4LDQ0MDE2MDUxMS
+w1NjQ3OTgxMDVdfQ==
 -->
