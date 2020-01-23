@@ -91,7 +91,9 @@ El documento se puede dividir por secciones de tal manera que se muestren de for
  - Subpárrafo: \subparagraph
 
 - Para construir el indice se utiliza ``\tableofcontents``
-- Podemos utilizar un nomb
+- Podemos utilizar un nombre alternativo que aparecerá en la cabecera y en el indice. Es útil para nombres muy largos
+	``\section[nombre corto]{nombre muy largo}``
+- 
 #### inport
 Se pueden importar diferentes documentos como .tex .pdf . estos se agregaran dentro del documento
 
@@ -282,7 +284,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1Nzc0ODkzNywtMTUzNjM3NDUwNCwtMT
+eyJoaXN0b3J5IjpbLTYyMjg4NTA0MiwtMTUzNjM3NDUwNCwtMT
 M3MTcyNTAwMSwtMTg3NDc0NzUwNSwtMTk5NDQ1Nzg5MiwtMjAw
 NTY1MDUzMywyODc3MjE3MjQsLTIwMjk0ODYxODAsMzI0OTE1Nz
 AwLC0xMDUyNTI3MTgyLC03Njg1ODA5NjEsMTMyMjgwMjMxNiwx
