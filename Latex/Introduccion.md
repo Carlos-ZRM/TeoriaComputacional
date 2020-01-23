@@ -12,6 +12,10 @@ Cada compilador contiene algunas librerías e implementaciones diferentes. por l
 - xetex,  xelatex 
 - lualatex
 - pdflatex
+- tex,  latex
+
+Latex esta disponible en varios sistemas operativos. Por lo que pueden instalar los compiladores y un IDE de edición.
+
 
 ## Estructura de un documento
 LatTex funciona mediante instrucciones. Las instrucciones pertenecen a algún paquete de Latex y algunas instrucciones pueden recibir parámetros. 
@@ -105,7 +109,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MzE0ODM4NCwtMTk1ODg0MzI2NCwtMT
+eyJoaXN0b3J5IjpbMTQ4MzA4ODc0MCwtMTk1ODg0MzI2NCwtMT
 I1MTY2OTYwMCw5MTMyNDc4LDQ0MDE2MDUxMSw1NjQ3OTgxMDVd
 fQ==
 -->
