@@ -269,14 +269,13 @@ Y podemos referenciar el elemento con ``\ref{etiqueta}`` o ``\pageref{etiqueta}`
 Latex posee instrucciones dedidacas a crear texto matemático. 
 - Pueden escribirse formulas dentro del texto ``$ ax+by+c=0 $``
 - Pueden escribirse adjuntando un salto de linea ``$$ \frac{a}{b}=\frac{c}{d} $$``
-- O pueden escribirse como ecuaciones. Estas son numeradas. ```
+- O pueden escribirse como ecuaciones. Estas son numeradas.
+```
 begin{equation*}
-ax+by+c=0
+	ax+by+c=0
 \end{equation*}
 
 ```
-
-
 
 ### Código
 Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones para agregar el código: dentro del documento .tex o  desde un archivo. 
@@ -395,11 +394,11 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDAwOTg0NTgsLTIxMjc0NDIxMjgsLT
-Y3NjA3OTY5LDE5MTc4OTI2MzQsLTY4Mjg1NDI0LC0xNTM2Mzc0
-NTA0LC0xMzcxNzI1MDAxLC0xODc0NzQ3NTA1LC0xOTk0NDU3OD
-kyLC0yMDA1NjUwNTMzLDI4NzcyMTcyNCwtMjAyOTQ4NjE4MCwz
-MjQ5MTU3MDAsLTEwNTI1MjcxODIsLTc2ODU4MDk2MSwxMzIyOD
-AyMzE2LDE1MjgzNzAyMzAsLTEyMzAwODc5NTUsMTM0NjE3MjA3
-MiwxODQyOTMyNjkyXX0=
+eyJoaXN0b3J5IjpbNDE1Njc2ODk4LC0yMTI3NDQyMTI4LC02Nz
+YwNzk2OSwxOTE3ODkyNjM0LC02ODI4NTQyNCwtMTUzNjM3NDUw
+NCwtMTM3MTcyNTAwMSwtMTg3NDc0NzUwNSwtMTk5NDQ1Nzg5Mi
+wtMjAwNTY1MDUzMywyODc3MjE3MjQsLTIwMjk0ODYxODAsMzI0
+OTE1NzAwLC0xMDUyNTI3MTgyLC03Njg1ODA5NjEsMTMyMjgwMj
+MxNiwxNTI4MzcwMjMwLC0xMjMwMDg3OTU1LDEzNDYxNzIwNzIs
+MTg0MjkzMjY5Ml19
 -->
