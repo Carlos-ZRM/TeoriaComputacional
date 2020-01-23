@@ -132,7 +132,11 @@ Podemos indicar el elemento grafico para crear listas, pero normalmente utilizam
 \end{enumerate}
 ```
 #### Figuras
-Se pueden agregar las imágenes dentro de la sentencia **figure** este obje .
+Se pueden agregar las imágenes dentro de la sentencia **figure** este objeto nos permite agregar imágenes, posicionarlos dentro del documento, agregar títulos y referencias .
+```
+\begin{figure}[Poscionamiento]
+... figure contents ...
+\end{figure}
 
 ``` 
 % Agregar a la sección de preambulo
@@ -177,11 +181,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQzNDkwMjY5LDEzMjI4MDIzMTYsMTUyOD
-M3MDIzMCwtMTIzMDA4Nzk1NSwxMzQ2MTcyMDcyLDE4NDI5MzI2
-OTIsLTIwMTM3MzU1MTMsLTExMjQxMzI4OTAsMTc4NjE3NzA4My
-wyMDc5NzYwOTE5LDE2ODQ2NjMwNDUsLTM5NzM2MDM0MywxMDAz
-NDYyOTYzLDEyNzcwNDY1NjUsMTM5ODg1ODQwOSwtMTcwOTU3OD
-M0LC04MjY2MTYzMTEsLTE5NTg4NDMyNjQsLTEyNTE2Njk2MDAs
-OTEzMjQ3OF19
+eyJoaXN0b3J5IjpbLTYwNjU0ODgwOSwxMzIyODAyMzE2LDE1Mj
+gzNzAyMzAsLTEyMzAwODc5NTUsMTM0NjE3MjA3MiwxODQyOTMy
+NjkyLC0yMDEzNzM1NTEzLC0xMTI0MTMyODkwLDE3ODYxNzcwOD
+MsMjA3OTc2MDkxOSwxNjg0NjYzMDQ1LC0zOTczNjAzNDMsMTAw
+MzQ2Mjk2MywxMjc3MDQ2NTY1LDEzOTg4NTg0MDksLTE3MDk1Nz
+gzNCwtODI2NjE2MzExLC0xOTU4ODQzMjY0LC0xMjUxNjY5NjAw
+LDkxMzI0NzhdfQ==
 -->
