@@ -146,6 +146,8 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
  ![Layout-dimensions.png](https://sharelatex-wiki-cdn-671420.c.cdn77.org/learn-scripts/images/f/fc/Layout-dimensions.png)
 
 - \usepackage[spanish]{babel}
+	El paquete Babel permite utilizar caracteres especiales y también traduce algunos elementos dentro del documento. También activa automáticamente las reglas de separación de sílabas apropiadas para el idioma que elija.
+	
  - \usepackage[utf8]{inputenc}
   Con esta instrucción se le indica a látex que codificación debe utilizar. Se agrega utf8 para añadir acentos.
   
@@ -155,7 +157,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MDc4NDY3NCwxODQyOTMyNjkyLC0yMD
+eyJoaXN0b3J5IjpbMTE4Njc1NDM3OSwxODQyOTMyNjkyLC0yMD
 EzNzM1NTEzLC0xMTI0MTMyODkwLDE3ODYxNzcwODMsMjA3OTc2
 MDkxOSwxNjg0NjYzMDQ1LC0zOTczNjAzNDMsMTAwMzQ2Mjk2My
 wxMjc3MDQ2NTY1LDEzOTg4NTg0MDksLTE3MDk1NzgzNCwtODI2
