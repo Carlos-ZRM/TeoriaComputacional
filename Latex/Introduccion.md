@@ -345,6 +345,8 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
 \usepackage{appendix}
 - \usepackage[spanish]{babel}
 	El paquete Babel permite utilizar caracteres especiales y también traduce algunos elementos dentro del documento. También activa automáticamente las reglas de separación de sílabas apropiadas para el idioma que elija.
+- \usepackage{colortbl}
+
 - \usepackage{float}
 
 - \package{geometry}
@@ -368,7 +370,7 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTA1NTk3NjUsMTkxNzg5MjYzNCwtNj
+eyJoaXN0b3J5IjpbLTE2OTAzNDY1MTQsMTkxNzg5MjYzNCwtNj
 gyODU0MjQsLTE1MzYzNzQ1MDQsLTEzNzE3MjUwMDEsLTE4NzQ3
 NDc1MDUsLTE5OTQ0NTc4OTIsLTIwMDU2NTA1MzMsMjg3NzIxNz
 I0LC0yMDI5NDg2MTgwLDMyNDkxNTcwMCwtMTA1MjUyNzE4Miwt
