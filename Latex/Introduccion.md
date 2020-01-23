@@ -146,7 +146,10 @@ Podemos agregar las imágenes de forma simple
 
 Ademas podemos modificar el tamaño de la imagen por ejemplo :
 ```
-\includegraphics[scale =.15, angle=90]{img/rule90.png}
+% Escala la imagen un porcentaje y mantiene su aspecto, ademas la rota
+\includegraphics[scale=.15, angle=90]{img/rule90.png}
+% Escala la imagen a alturas maximas 
+\includegraphics[max width=200mm ,max height=200 mm , keepaspectratio]{img/rule90.png}
 ```
 También podemos agregar las imágenes dentro de la sentencia **figure** este objeto nos permite agregar imágenes, posicionarlos dentro del documento, agregar títulos y referencias .
 ```
@@ -235,11 +238,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDU2NTA1MzMsMjg3NzIxNzI0LC0yMD
-I5NDg2MTgwLDMyNDkxNTcwMCwtMTA1MjUyNzE4MiwtNzY4NTgw
-OTYxLDEzMjI4MDIzMTYsMTUyODM3MDIzMCwtMTIzMDA4Nzk1NS
-wxMzQ2MTcyMDcyLDE4NDI5MzI2OTIsLTIwMTM3MzU1MTMsLTEx
-MjQxMzI4OTAsMTc4NjE3NzA4MywyMDc5NzYwOTE5LDE2ODQ2Nj
-MwNDUsLTM5NzM2MDM0MywxMDAzNDYyOTYzLDEyNzcwNDY1NjUs
-MTM5ODg1ODQwOV19
+eyJoaXN0b3J5IjpbNTI5NzAxOTMsLTIwMDU2NTA1MzMsMjg3Nz
+IxNzI0LC0yMDI5NDg2MTgwLDMyNDkxNTcwMCwtMTA1MjUyNzE4
+MiwtNzY4NTgwOTYxLDEzMjI4MDIzMTYsMTUyODM3MDIzMCwtMT
+IzMDA4Nzk1NSwxMzQ2MTcyMDcyLDE4NDI5MzI2OTIsLTIwMTM3
+MzU1MTMsLTExMjQxMzI4OTAsMTc4NjE3NzA4MywyMDc5NzYwOT
+E5LDE2ODQ2NjMwNDUsLTM5NzM2MDM0MywxMDAzNDYyOTYzLDEy
+NzcwNDY1NjVdfQ==
 -->
