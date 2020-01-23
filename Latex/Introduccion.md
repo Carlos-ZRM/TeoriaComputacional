@@ -269,8 +269,15 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 ```
 \lstinputlisting[language=Python, caption= Ejemplo de Hola mundo en Python ]{holaMundo.py}
 ```
+
 ### Referencias
-Existen varias formas de referencia dentro de un docu
+Existen varias formas de referencia dentro de un documento. Podemos usar el paquete ``\usepackage{natbib}
+``
+Usualmente la información de la bibliografía se almacena en un
+```    
+\bibliographystyle{IEEEtranN}
+\bibliography{cite.bib}
+```
  
 # Paquetes comunes
 
@@ -289,7 +296,7 @@ Existen varias formas de referencia dentro de un docu
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ1MzczNTA0LC02ODI4NTQyNCwtMTUzNj
+eyJoaXN0b3J5IjpbMTQ5NzE3MjM2LC02ODI4NTQyNCwtMTUzNj
 M3NDUwNCwtMTM3MTcyNTAwMSwtMTg3NDc0NzUwNSwtMTk5NDQ1
 Nzg5MiwtMjAwNTY1MDUzMywyODc3MjE3MjQsLTIwMjk0ODYxOD
 AsMzI0OTE1NzAwLC0xMDUyNTI3MTgyLC03Njg1ODA5NjEsMTMy
