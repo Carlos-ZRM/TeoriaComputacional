@@ -145,6 +145,7 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 - \package{geometry}
  ![Layout-dimensions.png](https://sharelatex-wiki-cdn-671420.c.cdn77.org/learn-scripts/images/f/fc/Layout-dimensions.png)
 
+- \usepackage[spanish]{babel}
  - \usepackage[utf8]{inputenc}
   Con esta instrucción se le indica a látex que codificación debe utilizar. Se agrega utf8 para añadir acentos.
   
@@ -154,10 +155,10 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MjkzMjY5MiwtMjAxMzczNTUxMywtMT
-EyNDEzMjg5MCwxNzg2MTc3MDgzLDIwNzk3NjA5MTksMTY4NDY2
-MzA0NSwtMzk3MzYwMzQzLDEwMDM0NjI5NjMsMTI3NzA0NjU2NS
-wxMzk4ODU4NDA5LC0xNzA5NTc4MzQsLTgyNjYxNjMxMSwtMTk1
-ODg0MzI2NCwtMTI1MTY2OTYwMCw5MTMyNDc4LDQ0MDE2MDUxMS
-w1NjQ3OTgxMDVdfQ==
+eyJoaXN0b3J5IjpbMTk4MDc4NDY3NCwxODQyOTMyNjkyLC0yMD
+EzNzM1NTEzLC0xMTI0MTMyODkwLDE3ODYxNzcwODMsMjA3OTc2
+MDkxOSwxNjg0NjYzMDQ1LC0zOTczNjAzNDMsMTAwMzQ2Mjk2My
+wxMjc3MDQ2NTY1LDEzOTg4NTg0MDksLTE3MDk1NzgzNCwtODI2
+NjE2MzExLC0xOTU4ODQzMjY0LC0xMjUxNjY5NjAwLDkxMzI0Nz
+gsNDQwMTYwNTExLDU2NDc5ODEwNV19
 -->
