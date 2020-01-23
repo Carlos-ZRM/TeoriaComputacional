@@ -174,20 +174,21 @@ También podemos agregar las imágenes dentro de la sentencia **figure** este ob
 #### Tablas
 
 Al igual que las figuras las tablas pueden tener titulo, alineación, referencias. Se utilizara el comando tabular para  crear las filas y columnas.  
-Dentro de los corchetes de tabular se define el número de columnas mediante letras. cada letra es una columna y representa la justificación del texto dentro de la tabla **l,c,r**.  Con | se agregan lineas para separar columnas.
 
-Para separar las columnas se utagregar filas se utilizan ``\\`` al f 
-``\hline``  
+- Dentro de los corchetes de tabular se define el número de columnas mediante letras. cada letra es una columna y representa la justificación del texto dentro de la tabla **l,c,r**.  Con | se agregan lineas para separar columnas.
+
+- Para separar las columnas se utiliza el símbolo & y para  agregar filas se utilizan ``\\`` al final de las columnas
+- Para agregar una linea horizontal se utiliza ``\hline``  
 
 ```
 \begin{table}[h]
     \centering
-    \begin{tabular}{c|c}
+    \begin{tabular}{l|c}
         \hline
         Columna 1 & Columna 2  \\ \hline
         Texto & Texto  \\hline 
     \end{tabular}
-    \caption{Caption}
+    \caption{titulo}
     \label{tab:my_label}
 \end{table}
 ```
@@ -251,11 +252,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3MDI0NDgzLC0xODc0NzQ3NTA1LC0xOT
-k0NDU3ODkyLC0yMDA1NjUwNTMzLDI4NzcyMTcyNCwtMjAyOTQ4
-NjE4MCwzMjQ5MTU3MDAsLTEwNTI1MjcxODIsLTc2ODU4MDk2MS
-wxMzIyODAyMzE2LDE1MjgzNzAyMzAsLTEyMzAwODc5NTUsMTM0
-NjE3MjA3MiwxODQyOTMyNjkyLC0yMDEzNzM1NTEzLC0xMTI0MT
-MyODkwLDE3ODYxNzcwODMsMjA3OTc2MDkxOSwxNjg0NjYzMDQ1
-LC0zOTczNjAzNDNdfQ==
+eyJoaXN0b3J5IjpbLTEzNzE3MjUwMDEsLTE4NzQ3NDc1MDUsLT
+E5OTQ0NTc4OTIsLTIwMDU2NTA1MzMsMjg3NzIxNzI0LC0yMDI5
+NDg2MTgwLDMyNDkxNTcwMCwtMTA1MjUyNzE4MiwtNzY4NTgwOT
+YxLDEzMjI4MDIzMTYsMTUyODM3MDIzMCwtMTIzMDA4Nzk1NSwx
+MzQ2MTcyMDcyLDE4NDI5MzI2OTIsLTIwMTM3MzU1MTMsLTExMj
+QxMzI4OTAsMTc4NjE3NzA4MywyMDc5NzYwOTE5LDE2ODQ2NjMw
+NDUsLTM5NzM2MDM0M119
 -->
