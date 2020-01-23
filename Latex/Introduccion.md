@@ -210,6 +210,8 @@ Como hemos visto **table** y **figure** , así que podemos utilizar tabular para
             \caption{Caption}
         \end{figure}
 ```
+##### Citar dentro del texto
+Latex nos permite hacer referencias dentro del texto 
 ##### Listas de contenido 
   También latex nos permite crear listas de figuras y contenido. 
   ```
@@ -252,11 +254,11 @@ Podemos utilizar el paquete ``\usepackage{listings}`` .   Existen dos opciones p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzE3MjUwMDEsLTE4NzQ3NDc1MDUsLT
-E5OTQ0NTc4OTIsLTIwMDU2NTA1MzMsMjg3NzIxNzI0LC0yMDI5
-NDg2MTgwLDMyNDkxNTcwMCwtMTA1MjUyNzE4MiwtNzY4NTgwOT
-YxLDEzMjI4MDIzMTYsMTUyODM3MDIzMCwtMTIzMDA4Nzk1NSwx
-MzQ2MTcyMDcyLDE4NDI5MzI2OTIsLTIwMTM3MzU1MTMsLTExMj
-QxMzI4OTAsMTc4NjE3NzA4MywyMDc5NzYwOTE5LDE2ODQ2NjMw
-NDUsLTM5NzM2MDM0M119
+eyJoaXN0b3J5IjpbMTk0Njc3OTAzNSwtMTM3MTcyNTAwMSwtMT
+g3NDc0NzUwNSwtMTk5NDQ1Nzg5MiwtMjAwNTY1MDUzMywyODc3
+MjE3MjQsLTIwMjk0ODYxODAsMzI0OTE1NzAwLC0xMDUyNTI3MT
+gyLC03Njg1ODA5NjEsMTMyMjgwMjMxNiwxNTI4MzcwMjMwLC0x
+MjMwMDg3OTU1LDEzNDYxNzIwNzIsMTg0MjkzMjY5MiwtMjAxMz
+czNTUxMywtMTEyNDEzMjg5MCwxNzg2MTc3MDgzLDIwNzk3NjA5
+MTksMTY4NDY2MzA0NV19
 -->
