@@ -347,6 +347,7 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
 - \usepackage[spanish]{babel}
 	El paquete Babel permite utilizar caracteres especiales y también traduce algunos elementos dentro del documento. También activa automáticamente las reglas de separación de sílabas apropiadas para el idioma que elija.
 - \usepackage{colortbl}
+- \usepackage{enumerate}
 - \usepackage{float}
 
 - \package{geometry}
@@ -381,7 +382,7 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMzgyNDAxLDE5MTc4OTI2MzQsLTY4Mj
+eyJoaXN0b3J5IjpbLTY3NjA3OTY5LDE5MTc4OTI2MzQsLTY4Mj
 g1NDI0LC0xNTM2Mzc0NTA0LC0xMzcxNzI1MDAxLC0xODc0NzQ3
 NTA1LC0xOTk0NDU3ODkyLC0yMDA1NjUwNTMzLDI4NzcyMTcyNC
 wtMjAyOTQ4NjE4MCwzMjQ5MTU3MDAsLTEwNTI1MjcxODIsLTc2
