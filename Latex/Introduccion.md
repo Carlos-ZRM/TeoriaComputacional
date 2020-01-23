@@ -1,5 +1,6 @@
 
 # Qué es Latex
+
 TeX es un lenguaje creado por Donald Knuth para escribir documentos de forma atractiva y consistente. Knuth comenzó a escribir el motor de composición tipográfica TeX en 1977,
 Si bien TeX es un lenguaje de marcado para describir cómo debe verse su documento. El control fino que ofrece TeX sobre la estructura y el formato del documento lo convierte en una herramienta poderosa y formidable para producir textos académicos, científicos, matemáticos y de ingeniería.
 
@@ -442,7 +443,7 @@ La forma que tenemos para citar dentro del texto es mediante el comando cite
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0Njc4MDg4Nyw0MTU2NzY4OTgsLTIxMj
+eyJoaXN0b3J5IjpbMTA5MTQyNTcyMyw0MTU2NzY4OTgsLTIxMj
 c0NDIxMjgsLTY3NjA3OTY5LDE5MTc4OTI2MzQsLTY4Mjg1NDI0
 LC0xNTM2Mzc0NTA0LC0xMzcxNzI1MDAxLC0xODc0NzQ3NTA1LC
 0xOTk0NDU3ODkyLC0yMDA1NjUwNTMzLDI4NzcyMTcyNCwtMjAy
