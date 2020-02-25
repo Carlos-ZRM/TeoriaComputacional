@@ -1,3 +1,6 @@
+##  https://github.com/Carlos-ZRM/TeoriaComputacional
+## carloszrm90@gmail.com
+
 # Definición formal de un autómata finito determinista
 - Q: conjunto finito de estados
 -  Σ: Un conjunto finito de símbolos de entrada 
